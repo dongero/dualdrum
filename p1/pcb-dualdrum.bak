@@ -1,0 +1,3147 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S -1825 6025 1300 1025
+U 5D4A5981
+F0 "Sheet5D4A5980" 50
+F1 "Drum-interface_p7.sch" 50
+$EndSheet
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 1 1 5D4E048C
+P 3275 1850
+AR Path="/5B8C674E/5D4E048C" Ref="U?"  Part="1" 
+AR Path="/5D4E048C" Ref="U?"  Part="1" 
+AR Path="/5D4A5981/5D4E048C" Ref="U?"  Part="1" 
+F 0 "U?" H 3325 1950 50  0000 L CNN
+F 1 "072" H 3250 2075 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 3275 1850 60  0001 C CNN
+F 3 "" H 3275 1850 60  0000 C CNN
+F 4 "Mouser" H -875 -675 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -875 -675 50  0001 C CNN "Comments"
+	1    3275 1850
+	1    0    0    1   
+$EndComp
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 3 1 5D4E0494
+P 1500 5700
+AR Path="/5B8C674E/5D4E0494" Ref="U?"  Part="3" 
+AR Path="/5D4E0494" Ref="U?"  Part="3" 
+AR Path="/5D4A5981/5D4E0494" Ref="U?"  Part="3" 
+F 0 "U?" V 1625 5625 50  0000 L CNN
+F 1 "072" V 1700 5625 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 1500 5700 60  0001 C CNN
+F 3 "" H 1500 5700 60  0000 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+	3    1500 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E04A1
+P 1250 5800
+AR Path="/5B8C674E/5D4E04A1" Ref="C?"  Part="1" 
+AR Path="/5D4E04A1" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E04A1" Ref="C?"  Part="1" 
+F 0 "C?" H 1050 5850 50  0000 L CNN
+F 1 "0.1uF" H 975 5775 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 1250 5800 50  0001 C CNN
+F 3 "" H 1250 5800 50  0000 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 375 -225 50  0001 C CNN "Designation"
+F 7 "C0603" H 375 -225 50  0001 C CNN "Package"
+F 8 "TEST" H 375 -225 50  0001 C CNN "Part Number"
+F 9 "2" H 375 -225 50  0001 C CNN "Points"
+F 10 "SMD" H 375 -225 50  0001 C CNN "SMD/TH"
+	1    1250 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E04A7
+P 1250 5900
+AR Path="/5B8C674E/5D4E04A7" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E04A7" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E04A7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1250 5650 50  0001 C CNN
+F 1 "GND" H 1125 5875 50  0000 C CNN
+F 2 "" H 1250 5900 50  0000 C CNN
+F 3 "" H 1250 5900 50  0000 C CNN
+	1    1250 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-mech:POT Level_?
+U 1 1 5D4E04AF
+P 4275 1425
+AR Path="/5B8C674E/5D4E04AF" Ref="Level_?"  Part="1" 
+AR Path="/5D4E04AF" Ref="Level_?"  Part="1" 
+AR Path="/5D4A5981/5D4E04AF" Ref="Level_?"  Part="1" 
+F 0 "Level_?" V 4100 1475 50  0000 C CNN
+F 1 "100k" V 4150 1450 50  0000 C CNN
+F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 4275 1425 60  0001 C CNN
+F 3 "" H 4275 1425 60  0000 C CNN
+F 4 "Mouser" H -875 -675 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -875 -675 50  0001 C CNN "Comments"
+	1    4275 1425
+	0    1    -1   0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E04BA
+P 2725 1750
+AR Path="/5B8C674E/5D4E04BA" Ref="R?"  Part="1" 
+AR Path="/5D4E04BA" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E04BA" Ref="R?"  Part="1" 
+F 0 "R?" V 2650 1750 50  0000 C CNN
+F 1 "1k" V 2825 1750 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 2725 1750 60  0001 C CNN
+F 3 "" H 2725 1750 60  0000 C CNN
+F 4 "Mouser" H -875 -675 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -875 -675 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -875 -675 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -875 -675 50  0001 C CNN "Part Number"
+F 8 "C0603" H -875 -675 50  0001 C CNN "Package"
+	1    2725 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E04C5
+P 3250 1425
+AR Path="/5B8C674E/5D4E04C5" Ref="R?"  Part="1" 
+AR Path="/5D4E04C5" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E04C5" Ref="R?"  Part="1" 
+F 0 "R?" H 3425 1350 50  0000 C CNN
+F 1 "220k" V 3150 1450 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 3250 1425 60  0001 C CNN
+F 3 "" H 3250 1425 60  0000 C CNN
+F 4 "Mouser" H -875 -675 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -875 -675 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -875 -675 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -875 -675 50  0001 C CNN "Part Number"
+F 8 "C0603" H -875 -675 50  0001 C CNN "Package"
+	1    3250 1425
+	0    -1   1    0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E04D2
+P 6225 4075
+AR Path="/5B8C674E/5D4E04D2" Ref="C?"  Part="1" 
+AR Path="/5D4E04D2" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E04D2" Ref="C?"  Part="1" 
+F 0 "C?" H 6000 4075 50  0000 L CNN
+F 1 "22uF" H 6075 4150 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0805" H 6225 4075 50  0001 C CNN
+F 3 "" H 6225 4075 50  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "Min. 25V, X5R/X6S/X7R/X7S, 0805, MLCC" H -425 -300 50  0001 C CNN "Designation"
+F 7 "C0805" H -425 -300 50  0001 C CNN "Package"
+F 8 "TEST" H -425 -300 50  0001 C CNN "Part Number"
+F 9 "2" H -425 -300 50  0001 C CNN "Points"
+F 10 "SMD" H -425 -300 50  0001 C CNN "SMD/TH"
+	1    6225 4075
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-mech:POT EnvSense?
+U 1 1 5D4E04DC
+P 5750 3625
+AR Path="/5B8C674E/5D4E04DC" Ref="EnvSense?"  Part="1" 
+AR Path="/5D4E04DC" Ref="EnvSense?"  Part="1" 
+AR Path="/5D4A5981/5D4E04DC" Ref="EnvSense?"  Part="1" 
+F 0 "EnvSense?" V 5600 3625 50  0000 C CNN
+F 1 "100k" V 5675 3625 50  0000 C CNN
+F 2 "4ms_Potentiometer:Pot_9mm_Knurl_NoDet" H 5750 3625 60  0001 C CNN
+F 3 "" H 5750 3625 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "2" H -425 -300 50  0001 C CNN "Points"
+F 7 "SMD" H -425 -300 50  0001 C CNN "SMD/TH"
+	1    5750 3625
+	0    -1   1    0   
+$EndComp
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 1 1 5D4E04E4
+P 7050 3875
+AR Path="/5B8C674E/5D4E04E4" Ref="U?"  Part="2" 
+AR Path="/5D4E04E4" Ref="U?"  Part="1" 
+AR Path="/5D4A5981/5D4E04E4" Ref="U?"  Part="1" 
+F 0 "U?" H 7100 3975 50  0000 L CNN
+F 1 "072" H 7045 4045 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 7050 3875 60  0001 C CNN
+F 3 "" H 7050 3875 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+	1    7050 3875
+	1    0    0    1   
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E04EA
+P 1750 5900
+AR Path="/5B8C674E/5D4E04EA" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E04EA" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E04EA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1750 5650 50  0001 C CNN
+F 1 "GND" H 1625 5875 50  0000 C CNN
+F 2 "" H 1750 5900 50  0000 C CNN
+F 3 "" H 1750 5900 50  0000 C CNN
+	1    1750 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:D D?
+U 1 1 5D4E04F5
+P 5325 1650
+F 0 "D?" V 5450 1525 50  0000 C CNN
+F 1 "SD103" V 5525 1475 50  0000 C CNN
+F 2 "4ms_Diode:D_SOD-323F" H 5325 1650 50  0001 C CNN
+F 3 "" H 5325 1650 50  0001 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "SOD123" H -425 -300 50  0001 C CNN "Package"
+F 7 "2" H -425 -300 50  0001 C CNN "Points"
+F 8 "SMD" H -425 -300 50  0001 C CNN "SMD/TH"
+	1    5325 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E04FB
+P 5325 1800
+AR Path="/5B8C674E/5D4E04FB" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E04FB" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E04FB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5325 1550 50  0001 C CNN
+F 1 "GND" H 5325 1650 50  0001 C CNN
+F 2 "" H 5325 1800 50  0000 C CNN
+F 3 "" H 5325 1800 50  0000 C CNN
+	1    5325 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:4001 U?
+U 1 1 5D4E0503
+P 5775 1600
+AR Path="/5B8C674E/5D4E0503" Ref="U?"  Part="1" 
+AR Path="/5D4E0503" Ref="U?"  Part="1" 
+AR Path="/5D4A5981/5D4E0503" Ref="U?"  Part="1" 
+F 0 "U?" H 5525 1825 50  0000 L CNN
+F 1 "CD4001" H 5770 1770 50  0000 L CNN
+F 2 "4ms_Package_SOIC:SOIC-14_3.9x8.65mm_Pitch1.27mm" H 5775 1600 60  0001 C CNN
+F 3 "" H 5775 1600 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+	1    5775 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:4001 U?
+U 2 1 5D4E050B
+P 6800 1600
+AR Path="/5B8C674E/5D4E050B" Ref="U?"  Part="1" 
+AR Path="/5D4E050B" Ref="U?"  Part="2" 
+AR Path="/5D4A5981/5D4E050B" Ref="U?"  Part="2" 
+F 0 "U?" H 6850 1700 50  0000 L CNN
+F 1 "CD4001" H 6795 1770 50  0000 L CNN
+F 2 "4ms_Package_SOIC:SOIC-14_3.9x8.65mm_Pitch1.27mm" H 6800 1600 60  0001 C CNN
+F 3 "" H 6800 1600 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+	2    6800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E0518
+P 6175 1600
+AR Path="/5B8C674E/5D4E0518" Ref="C?"  Part="1" 
+AR Path="/5D4E0518" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E0518" Ref="C?"  Part="1" 
+F 0 "C?" V 6050 1450 50  0000 L CNN
+F 1 "10uF 16v" V 6050 1550 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0805" H 6175 1600 50  0001 C CNN
+F 3 "" H 6175 1600 50  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "Min. 25V, X5R/X6S/X7R/X7S, 0805, MLCC" H -425 -300 50  0001 C CNN "Designation"
+F 7 "C0805" H -425 -300 50  0001 C CNN "Package"
+F 8 "TEST" H -425 -300 50  0001 C CNN "Part Number"
+F 9 "2" H -425 -300 50  0001 C CNN "Points"
+F 10 "SMD" H -425 -300 50  0001 C CNN "SMD/TH"
+	1    6175 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0523
+P 6275 1100
+AR Path="/5B8C674E/5D4E0523" Ref="R?"  Part="1" 
+AR Path="/5D4E0523" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E0523" Ref="R?"  Part="1" 
+F 0 "R?" V 6225 1300 50  0000 C CNN
+F 1 "330" V 6375 1100 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 6275 1100 60  0001 C CNN
+F 3 "" H 6275 1100 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -425 -300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -425 -300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -425 -300 50  0001 C CNN "Package"
+	1    6275 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 5D4E0529
+P 1250 5700
+AR Path="/5B8C674E/5D4E0529" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0529" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0529" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1250 5550 50  0001 C CNN
+F 1 "+12V" H 1250 5840 50  0000 C CNN
+F 2 "" H 1250 5700 50  0000 C CNN
+F 3 "" H 1250 5700 50  0000 C CNN
+	1    1250 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 5D4E052F
+P 6275 950
+AR Path="/5B8C674E/5D4E052F" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E052F" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E052F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6275 800 50  0001 C CNN
+F 1 "+12V" H 6125 1025 50  0000 C CNN
+F 2 "" H 6275 950 50  0000 C CNN
+F 3 "" H 6275 950 50  0000 C CNN
+	1    6275 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1500 6500 1600
+Connection ~ 6500 1600
+Wire Wire Line
+	6500 1600 6500 1700
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 2 1 5D4E053A
+P 7925 2275
+AR Path="/5B8C674E/5D4E053A" Ref="U?"  Part="1" 
+AR Path="/5D4E053A" Ref="U?"  Part="2" 
+AR Path="/5D4A5981/5D4E053A" Ref="U?"  Part="2" 
+F 0 "U?" H 7975 2375 50  0000 L CNN
+F 1 "072" H 7920 2445 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 7925 2275 60  0001 C CNN
+F 3 "" H 7925 2275 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+	2    7925 2275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8225 2575 8225 2275
+$Comp
+L 4ms-mech:JACK-MONO INL?
+U 1 1 5D4E0544
+P 9200 2425
+AR Path="/5B8C674E/5D4E0544" Ref="INL?"  Part="1" 
+AR Path="/5D4E0544" Ref="INL?"  Part="1" 
+AR Path="/5D4A5981/5D4E0544" Ref="INL?"  Part="1" 
+F 0 "INL?" H 9406 2812 60  0000 C CNN
+F 1 "JACK-MONO" H 9406 2706 60  0000 C CNN
+F 2 "4ms_Jack:EighthInch_PJ398SM" H 9200 2425 60  0001 C CNN
+F 3 "" H 9200 2425 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "2" H -425 -300 50  0001 C CNN "Points"
+	1    9200 2425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E054F
+P 8400 2275
+AR Path="/5B8C674E/5D4E054F" Ref="R?"  Part="1" 
+AR Path="/5D4E054F" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E054F" Ref="R?"  Part="1" 
+F 0 "R?" V 8550 2275 50  0000 C CNN
+F 1 "1k" V 8475 2275 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 8400 2275 60  0001 C CNN
+F 3 "" H 8400 2275 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -425 -300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -425 -300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -425 -300 50  0001 C CNN "Package"
+	1    8400 2275
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8225 2275 8250 2275
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 3 1 5D4E0558
+P 2600 5700
+AR Path="/5B8C674E/5D4E0558" Ref="U?"  Part="3" 
+AR Path="/5D4E0558" Ref="U?"  Part="3" 
+AR Path="/5D4A5981/5D4E0558" Ref="U?"  Part="3" 
+F 0 "U?" V 2725 5625 50  0000 L CNN
+F 1 "072" V 2450 5525 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 2600 5700 60  0001 C CNN
+F 3 "" H 2600 5700 60  0000 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+	3    2600 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E0565
+P 2350 5800
+AR Path="/5B8C674E/5D4E0565" Ref="C?"  Part="1" 
+AR Path="/5D4E0565" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E0565" Ref="C?"  Part="1" 
+F 0 "C?" H 2150 5850 50  0000 L CNN
+F 1 "0.1uF" H 2075 5775 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 2350 5800 50  0001 C CNN
+F 3 "" H 2350 5800 50  0000 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 375 -225 50  0001 C CNN "Designation"
+F 7 "C0603" H 375 -225 50  0001 C CNN "Package"
+F 8 "TEST" H 375 -225 50  0001 C CNN "Part Number"
+F 9 "2" H 375 -225 50  0001 C CNN "Points"
+F 10 "SMD" H 375 -225 50  0001 C CNN "SMD/TH"
+	1    2350 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E056B
+P 2350 5900
+AR Path="/5B8C674E/5D4E056B" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E056B" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E056B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2350 5650 50  0001 C CNN
+F 1 "GND" H 2225 5875 50  0000 C CNN
+F 2 "" H 2350 5900 50  0000 C CNN
+F 3 "" H 2350 5900 50  0000 C CNN
+	1    2350 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0571
+P 2850 5900
+AR Path="/5B8C674E/5D4E0571" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0571" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0571" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2850 5650 50  0001 C CNN
+F 1 "GND" H 2725 5875 50  0000 C CNN
+F 2 "" H 2850 5900 50  0000 C CNN
+F 3 "" H 2850 5900 50  0000 C CNN
+	1    2850 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 5D4E0577
+P 2350 5700
+AR Path="/5B8C674E/5D4E0577" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0577" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0577" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2350 5550 50  0001 C CNN
+F 1 "+12V" H 2350 5840 50  0000 C CNN
+F 2 "" H 2350 5700 50  0000 C CNN
+F 3 "" H 2350 5700 50  0000 C CNN
+	1    2350 5700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8950 2425
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 3 1 5D4E0580
+P 3675 5700
+AR Path="/5B8C674E/5D4E0580" Ref="U?"  Part="3" 
+AR Path="/5D4E0580" Ref="U?"  Part="3" 
+AR Path="/5D4A5981/5D4E0580" Ref="U?"  Part="3" 
+F 0 "U?" V 3800 5625 50  0000 L CNN
+F 1 "072" V 3525 5525 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 3675 5700 60  0001 C CNN
+F 3 "" H 3675 5700 60  0000 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+	3    3675 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E058D
+P 3425 5800
+AR Path="/5B8C674E/5D4E058D" Ref="C?"  Part="1" 
+AR Path="/5D4E058D" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E058D" Ref="C?"  Part="1" 
+F 0 "C?" H 3225 5850 50  0000 L CNN
+F 1 "0.1uF" H 3150 5775 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 3425 5800 50  0001 C CNN
+F 3 "" H 3425 5800 50  0000 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 375 -225 50  0001 C CNN "Designation"
+F 7 "C0603" H 375 -225 50  0001 C CNN "Package"
+F 8 "TEST" H 375 -225 50  0001 C CNN "Part Number"
+F 9 "2" H 375 -225 50  0001 C CNN "Points"
+F 10 "SMD" H 375 -225 50  0001 C CNN "SMD/TH"
+	1    3425 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0593
+P 3425 5900
+AR Path="/5B8C674E/5D4E0593" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0593" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0593" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3425 5650 50  0001 C CNN
+F 1 "GND" H 3300 5875 50  0000 C CNN
+F 2 "" H 3425 5900 50  0000 C CNN
+F 3 "" H 3425 5900 50  0000 C CNN
+	1    3425 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0599
+P 3925 5900
+AR Path="/5B8C674E/5D4E0599" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0599" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0599" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3925 5650 50  0001 C CNN
+F 1 "GND" H 3800 5875 50  0000 C CNN
+F 2 "" H 3925 5900 50  0000 C CNN
+F 3 "" H 3925 5900 50  0000 C CNN
+	1    3925 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 5D4E059F
+P 3425 5700
+AR Path="/5B8C674E/5D4E059F" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E059F" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E059F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3425 5550 50  0001 C CNN
+F 1 "+12V" H 3425 5840 50  0000 C CNN
+F 2 "" H 3425 5700 50  0000 C CNN
+F 3 "" H 3425 5700 50  0000 C CNN
+	1    3425 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:LED GATE_LED?
+U 1 1 5D4E05A8
+P 8750 2575
+F 0 "GATE_LED?" H 8975 2475 45  0000 R CNN
+F 1 "LED" H 8750 2625 45  0000 R CNN
+F 2 "4ms_LED:LED_0603_1608Metric" H 8780 2725 20  0001 C CNN
+F 3 "" H 8750 2575 60  0001 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "2" H -425 -300 50  0001 C CNN "Points"
+	1    8750 2575
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-ic:4001 U?
+U 5 1 5D4E05B0
+P 4400 6750
+AR Path="/5B8C674E/5D4E05B0" Ref="U?"  Part="1" 
+AR Path="/5D4E05B0" Ref="U?"  Part="5" 
+AR Path="/5D4A5981/5D4E05B0" Ref="U?"  Part="5" 
+F 0 "U?" H 4450 6850 50  0000 L CNN
+F 1 "CD4001" H 4395 6920 50  0000 L CNN
+F 2 "4ms_Package_SOIC:SOIC-14_3.9x8.65mm_Pitch1.27mm" H 4400 6750 60  0001 C CNN
+F 3 "" H 4400 6750 60  0000 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+	5    4400 6750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 5D4E05B6
+P 3900 6750
+AR Path="/5B8C674E/5D4E05B6" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E05B6" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E05B6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3900 6600 50  0001 C CNN
+F 1 "+12V" H 3900 6890 50  0000 C CNN
+F 2 "" H 3900 6750 50  0000 C CNN
+F 3 "" H 3900 6750 50  0000 C CNN
+	1    3900 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E05BC
+P 3900 6950
+AR Path="/5B8C674E/5D4E05BC" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E05BC" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E05BC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3900 6700 50  0001 C CNN
+F 1 "GND" H 3775 6925 50  0000 C CNN
+F 2 "" H 3900 6950 50  0000 C CNN
+F 3 "" H 3900 6950 50  0000 C CNN
+	1    3900 6950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E05C2
+P 4900 6750
+AR Path="/5B8C674E/5D4E05C2" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E05C2" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E05C2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4900 6500 50  0001 C CNN
+F 1 "GND" H 4775 6725 50  0000 C CNN
+F 2 "" H 4900 6750 50  0000 C CNN
+F 3 "" H 4900 6750 50  0000 C CNN
+	1    4900 6750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E05CF
+P 3900 6850
+AR Path="/5B8C674E/5D4E05CF" Ref="C?"  Part="1" 
+AR Path="/5D4E05CF" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E05CF" Ref="C?"  Part="1" 
+F 0 "C?" H 3700 6900 50  0000 L CNN
+F 1 "0.1uF" H 3625 6825 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 3900 6850 50  0001 C CNN
+F 3 "" H 3900 6850 50  0000 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 375 -225 50  0001 C CNN "Designation"
+F 7 "C0603" H 375 -225 50  0001 C CNN "Package"
+F 8 "TEST" H 375 -225 50  0001 C CNN "Part Number"
+F 9 "2" H 375 -225 50  0001 C CNN "Points"
+F 10 "SMD" H 375 -225 50  0001 C CNN "SMD/TH"
+	1    3900 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E05DA
+P 8225 2725
+AR Path="/5B8C674E/5D4E05DA" Ref="R?"  Part="1" 
+AR Path="/5D4E05DA" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E05DA" Ref="R?"  Part="1" 
+F 0 "R?" H 8100 2750 50  0000 C CNN
+F 1 "1k" H 8075 2675 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 8225 2725 60  0001 C CNN
+F 3 "" H 8225 2725 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -425 -300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -425 -300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -425 -300 50  0001 C CNN "Package"
+	1    8225 2725
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7625 2575 8225 2575
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E05E6
+P 1575 2000
+AR Path="/5B8C674E/5D4E05E6" Ref="R?"  Part="1" 
+AR Path="/5D4E05E6" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E05E6" Ref="R?"  Part="1" 
+F 0 "R?" V 1725 2000 50  0000 C CNN
+F 1 "100k" V 1650 2000 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 1575 2000 60  0001 C CNN
+F 3 "" H 1575 2000 60  0000 C CNN
+F 4 "Mouser" H -875 -675 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -875 -675 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -875 -675 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -875 -675 50  0001 C CNN "Part Number"
+F 8 "C0603" H -875 -675 50  0001 C CNN "Package"
+	1    1575 2000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2875 1750 2925 1750
+Connection ~ 2925 1750
+Wire Wire Line
+	2925 1750 2975 1750
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 2 1 5D4E05F1
+P 4275 1850
+AR Path="/5B8C674E/5D4E05F1" Ref="U?"  Part="1" 
+AR Path="/5D4E05F1" Ref="U?"  Part="2" 
+AR Path="/5D4A5981/5D4E05F1" Ref="U?"  Part="2" 
+F 0 "U?" H 4325 1950 50  0000 L CNN
+F 1 "NJM" H 4270 2020 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 4275 1850 60  0001 C CNN
+F 3 "" H 4275 1850 60  0000 C CNN
+F 4 "Mouser" H -875 -675 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -875 -675 50  0001 C CNN "Comments"
+	2    4275 1850
+	1    0    0    1   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E05FC
+P 3725 1750
+AR Path="/5B8C674E/5D4E05FC" Ref="R?"  Part="1" 
+AR Path="/5D4E05FC" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E05FC" Ref="R?"  Part="1" 
+F 0 "R?" V 3625 1750 50  0000 C CNN
+F 1 "1k" V 3850 2575 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 3725 1750 60  0001 C CNN
+F 3 "" H 3725 1750 60  0000 C CNN
+F 4 "Mouser" H -875 -675 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -875 -675 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -875 -675 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -875 -675 50  0001 C CNN "Part Number"
+F 8 "C0603" H -875 -675 50  0001 C CNN "Package"
+	1    3725 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3875 1750 3925 1750
+Connection ~ 3925 1750
+Wire Wire Line
+	3925 1750 3975 1750
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0605
+P 3950 1975
+AR Path="/5B8C674E/5D4E0605" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0605" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0605" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3950 1725 50  0001 C CNN
+F 1 "GND" H 3950 1825 50  0000 C CNN
+F 2 "" H 3950 1975 50  0000 C CNN
+F 3 "" H 3950 1975 50  0000 C CNN
+	1    3950 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3975 1950 3950 1950
+Wire Wire Line
+	3950 1950 3950 1975
+Wire Wire Line
+	4425 1425 4575 1425
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E0615
+P 1475 1850
+AR Path="/5B8C674E/5D4E0615" Ref="C?"  Part="1" 
+AR Path="/5D4E0615" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E0615" Ref="C?"  Part="1" 
+F 0 "C?" H 1550 1875 50  0000 L CNN
+F 1 "1uF" H 1500 1950 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 1475 1850 50  0001 C CNN
+F 3 "" H 1475 1850 50  0000 C CNN
+F 4 "Mouser" H -875 -675 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -875 -675 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H -875 -675 50  0001 C CNN "Designation"
+F 7 "C0603" H -875 -675 50  0001 C CNN "Package"
+F 8 "TES" H -875 -675 50  0001 C CNN "Part Number"
+F 9 "2" H -875 -675 50  0001 C CNN "Points"
+F 10 "SMD" H -875 -675 50  0001 C CNN "SMD/TH"
+	1    1475 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E061B
+P 1575 2150
+AR Path="/5B8C674E/5D4E061B" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E061B" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E061B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1575 1900 50  0001 C CNN
+F 1 "GND" H 1575 2000 50  0000 C CNN
+F 2 "" H 1575 2150 50  0000 C CNN
+F 3 "" H 1575 2150 50  0000 C CNN
+	1    1575 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E0628
+P 1750 5800
+AR Path="/5B8C674E/5D4E0628" Ref="C?"  Part="1" 
+AR Path="/5D4E0628" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E0628" Ref="C?"  Part="1" 
+F 0 "C?" H 1825 5775 50  0000 L CNN
+F 1 "0.1uF" H 1825 5875 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 1750 5800 50  0001 C CNN
+F 3 "" H 1750 5800 50  0000 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 375 -225 50  0001 C CNN "Designation"
+F 7 "C0603" H 375 -225 50  0001 C CNN "Package"
+F 8 "TEST" H 375 -225 50  0001 C CNN "Part Number"
+F 9 "2" H 375 -225 50  0001 C CNN "Points"
+F 10 "SMD" H 375 -225 50  0001 C CNN "SMD/TH"
+	1    1750 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E0635
+P 2850 5800
+AR Path="/5B8C674E/5D4E0635" Ref="C?"  Part="1" 
+AR Path="/5D4E0635" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E0635" Ref="C?"  Part="1" 
+F 0 "C?" H 2650 5850 50  0000 L CNN
+F 1 "0.1uF" H 2575 5775 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 2850 5800 50  0001 C CNN
+F 3 "" H 2850 5800 50  0000 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 375 -225 50  0001 C CNN "Designation"
+F 7 "C0603" H 375 -225 50  0001 C CNN "Package"
+F 8 "TEST" H 375 -225 50  0001 C CNN "Part Number"
+F 9 "2" H 375 -225 50  0001 C CNN "Points"
+F 10 "SMD" H 375 -225 50  0001 C CNN "SMD/TH"
+	1    2850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E0642
+P 3925 5800
+AR Path="/5B8C674E/5D4E0642" Ref="C?"  Part="1" 
+AR Path="/5D4E0642" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E0642" Ref="C?"  Part="1" 
+F 0 "C?" H 3725 5850 50  0000 L CNN
+F 1 "0.1uF" H 3650 5775 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 3925 5800 50  0001 C CNN
+F 3 "" H 3925 5800 50  0000 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 375 -225 50  0001 C CNN "Designation"
+F 7 "C0603" H 375 -225 50  0001 C CNN "Package"
+F 8 "TEST" H 375 -225 50  0001 C CNN "Part Number"
+F 9 "2" H 375 -225 50  0001 C CNN "Points"
+F 10 "SMD" H 375 -225 50  0001 C CNN "SMD/TH"
+	1    3925 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0648
+P 1275 6775
+AR Path="/5BB43456/5D4E0648" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0648" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0648" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1275 6525 50  0001 C CNN
+F 1 "GND" H 1275 6625 50  0000 C CNN
+F 2 "" H 1275 6775 50  0000 C CNN
+F 3 "" H 1275 6775 50  0000 C CNN
+	1    1275 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 5D4E064E
+P 3325 6350
+AR Path="/5BB43456/5D4E064E" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E064E" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E064E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3325 6200 50  0001 C CNN
+F 1 "+12V" H 3325 6490 50  0000 C CNN
+F 2 "" H 3325 6350 50  0000 C CNN
+F 3 "" H 3325 6350 50  0000 C CNN
+	1    3325 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:-12VA #PWR?
+U 1 1 5D4E0654
+P 3350 7075
+AR Path="/5BB43456/5D4E0654" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0654" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0654" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3350 7175 50  0001 C CNN
+F 1 "-12V" H 3350 7225 50  0000 C CNN
+F 2 "" H 3350 7075 50  0000 C CNN
+F 3 "" H 3350 7075 50  0000 C CNN
+	1    3350 7075
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E065A
+P 3050 7325
+AR Path="/5BB43456/5D4E065A" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E065A" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E065A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3050 7075 50  0001 C CNN
+F 1 "GND" H 3050 7175 50  0000 C CNN
+F 2 "" H 3050 7325 50  0000 C CNN
+F 3 "" H 3050 7325 50  0000 C CNN
+	1    3050 7325
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0660
+P 2225 6725
+AR Path="/5BB43456/5D4E0660" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0660" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0660" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2225 6475 50  0001 C CNN
+F 1 "GND" H 2275 6575 50  0000 C CNN
+F 2 "" H 2225 6725 50  0000 C CNN
+F 3 "" H 2225 6725 50  0000 C CNN
+	1    2225 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-headers:EURO_HEADER_10pin P?
+U 1 1 5D4E0668
+P 1875 6575
+AR Path="/5BB43456/5D4E0668" Ref="P?"  Part="1" 
+AR Path="/5D4E0668" Ref="P?"  Part="1" 
+AR Path="/5D4A5981/5D4E0668" Ref="P?"  Part="1" 
+F 0 "P?" H 1875 6875 50  0000 C CNN
+F 1 "CONN-02x05" H 1800 6050 50  0000 C CNN
+F 2 "4ms_Connector:Pins_2x05_2.54mm_TH_Europower" H 1875 6925 50  0001 C CNN
+F 3 "" H 1875 5375 50  0000 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+	1    1875 6575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1475 6625 1475 6725
+Connection ~ 1475 6725
+Wire Wire Line
+	1275 6725 1475 6725
+Wire Wire Line
+	1275 6725 1275 6775
+Wire Wire Line
+	2225 6725 2125 6725
+Wire Wire Line
+	3050 7325 3050 7275
+Wire Wire Line
+	1475 6725 1475 6825
+Wire Wire Line
+	1475 6725 1625 6725
+Wire Wire Line
+	1475 6625 1625 6625
+Wire Wire Line
+	1475 6825 1625 6825
+Wire Wire Line
+	2125 6625 2125 6725
+Connection ~ 2125 6725
+Wire Wire Line
+	2125 6725 2125 6825
+Wire Wire Line
+	1625 6525 2125 6525
+Wire Wire Line
+	1625 6925 2125 6925
+Text Notes 1125 5325 0    150  Italic 30
+POWER
+Wire Wire Line
+	2425 6350 2125 6350
+Wire Wire Line
+	2125 6350 2125 6525
+$Comp
+L 4ms-passives:B140HW-7 D?
+U 1 1 5D4E0685
+P 2575 6350
+AR Path="/5BB43456/5D4E0685" Ref="D?"  Part="1" 
+AR Path="/5D4E0685" Ref="D?"  Part="1" 
+AR Path="/5D4A5981/5D4E0685" Ref="D?"  Part="1" 
+F 0 "D?" H 2575 6100 50  0000 C CNN
+F 1 "B140HW-7" H 2575 6200 50  0000 C CNN
+F 2 "4ms_Diode:D_SOD-123" H 200 175 50  0001 C CNN
+F 3 "" H 200 350 50  0001 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+F 6 "SOD123" H 375 -225 50  0001 C CNN "Package"
+F 7 "2" H 375 -225 50  0001 C CNN "Points"
+F 8 "SMD" H 375 -225 50  0001 C CNN "SMD/TH"
+	1    2575 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 6600 3050 6550
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E068C
+P 3050 6600
+AR Path="/5BB43456/5D4E068C" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E068C" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E068C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3050 6350 50  0001 C CNN
+F 1 "GND" H 3050 6450 50  0000 C CNN
+F 2 "" H 3050 6600 50  0000 C CNN
+F 3 "" H 3050 6600 50  0000 C CNN
+	1    3050 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:CP1_Small C?
+U 1 1 5D4E0697
+P 3050 6450
+AR Path="/5BB43456/5D4E0697" Ref="C?"  Part="1" 
+AR Path="/5D4E0697" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E0697" Ref="C?"  Part="1" 
+F 0 "C?" H 3125 6475 50  0000 L CNN
+F 1 "47uF" H 3100 6400 50  0000 L CNN
+F 2 "4ms_Capacitor:CP_Elec_5x5.3" H 3050 6450 50  0001 C CNN
+F 3 "" H 3050 6450 50  0000 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+F 6 "TEST" H 375 -225 50  0001 C CNN "Part Number"
+F 7 "2" H 375 -225 50  0001 C CNN "Points"
+F 8 "SMD" H 375 -225 50  0001 C CNN "SMD/TH"
+	1    3050 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2125 6925 2125 7075
+$Comp
+L 4ms-passives:B140HW-7 D?
+U 1 1 5D4E06A3
+P 2575 7075
+AR Path="/5BB43456/5D4E06A3" Ref="D?"  Part="1" 
+AR Path="/5D4E06A3" Ref="D?"  Part="1" 
+AR Path="/5D4A5981/5D4E06A3" Ref="D?"  Part="1" 
+F 0 "D?" H 2575 7325 50  0000 C CNN
+F 1 "B140HW-7" H 2575 7225 50  0000 C CNN
+F 2 "4ms_Diode:D_SOD-123" H 200 900 50  0001 C CNN
+F 3 "" H 200 1075 50  0001 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+F 6 "SOD123" H 375 -225 50  0001 C CNN "Package"
+F 7 "2" H 375 -225 50  0001 C CNN "Points"
+F 8 "SMD" H 375 -225 50  0001 C CNN "SMD/TH"
+	1    2575 7075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2125 7075 2425 7075
+$Comp
+L 4ms-power:-12VA #PWR?
+U 1 1 5D4E06AA
+P 3925 5700
+AR Path="/5BB43456/5D4E06AA" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E06AA" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E06AA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3925 5800 50  0001 C CNN
+F 1 "-12V" H 3925 5850 50  0000 C CNN
+F 2 "" H 3925 5700 50  0000 C CNN
+F 3 "" H 3925 5700 50  0000 C CNN
+	1    3925 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:-12VA #PWR?
+U 1 1 5D4E06B0
+P 1750 5700
+AR Path="/5BB43456/5D4E06B0" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E06B0" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E06B0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1750 5800 50  0001 C CNN
+F 1 "-12V" H 1750 5850 50  0000 C CNN
+F 2 "" H 1750 5700 50  0000 C CNN
+F 3 "" H 1750 5700 50  0000 C CNN
+	1    1750 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:-12VA #PWR?
+U 1 1 5D4E06B6
+P 2850 5700
+AR Path="/5BB43456/5D4E06B6" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E06B6" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E06B6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2850 5800 50  0001 C CNN
+F 1 "-12V" H 2850 5850 50  0000 C CNN
+F 2 "" H 2850 5700 50  0000 C CNN
+F 3 "" H 2850 5700 50  0000 C CNN
+	1    2850 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E06BC
+P 475 2400
+AR Path="/5B8C674E/5D4E06BC" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E06BC" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E06BC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 475 2150 50  0001 C CNN
+F 1 "GND" H 475 2250 50  0000 C CNN
+F 2 "" H 475 2400 50  0000 C CNN
+F 3 "" H 475 2400 50  0000 C CNN
+	1    475  2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E06C9
+P 4275 1125
+AR Path="/5B8C674E/5D4E06C9" Ref="C?"  Part="1" 
+AR Path="/5D4E06C9" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E06C9" Ref="C?"  Part="1" 
+F 0 "C?" V 4400 1150 50  0000 L CNN
+F 1 "220pF - 1000pF" V 4325 1150 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 4275 1125 50  0001 C CNN
+F 3 "" H 4275 1125 50  0000 C CNN
+F 4 "Mouser" H -875 -675 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -875 -675 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H -875 -675 50  0001 C CNN "Designation"
+F 7 "C0603" H -875 -675 50  0001 C CNN "Package"
+F 8 "TEST" H -875 -675 50  0001 C CNN "Part Number"
+F 9 "2" H -875 -675 50  0001 C CNN "Points"
+F 10 "SMD" H -875 -675 50  0001 C CNN "SMD/TH"
+	1    4275 1125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4375 1125 4575 1125
+Wire Wire Line
+	4175 1125 3925 1125
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E06D8
+P 3275 1125
+AR Path="/5B8C674E/5D4E06D8" Ref="C?"  Part="1" 
+AR Path="/5D4E06D8" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E06D8" Ref="C?"  Part="1" 
+F 0 "C?" V 3400 1225 50  0000 L CNN
+F 1 "220pF - 1000pF" V 3325 1175 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 3275 1125 50  0001 C CNN
+F 3 "" H 3275 1125 50  0000 C CNN
+F 4 "Mouser" H -875 -675 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -875 -675 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H -875 -675 50  0001 C CNN "Designation"
+F 7 "C0603" H -875 -675 50  0001 C CNN "Package"
+F 8 "TEST" H -875 -675 50  0001 C CNN "Part Number"
+F 9 "2" H -875 -675 50  0001 C CNN "Points"
+F 10 "SMD" H -875 -675 50  0001 C CNN "SMD/TH"
+	1    3275 1125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3375 1125 3575 1125
+Wire Wire Line
+	3175 1125 2925 1125
+Wire Wire Line
+	3575 1125 3575 1425
+Connection ~ 3575 1425
+Connection ~ 8225 2575
+Wire Wire Line
+	3400 1425 3575 1425
+Wire Wire Line
+	2925 1125 2925 1425
+Wire Wire Line
+	3100 1425 2925 1425
+Connection ~ 2925 1425
+Wire Wire Line
+	2925 1425 2925 1750
+NoConn ~ 4125 1425
+Wire Wire Line
+	3925 1125 3925 1275
+Wire Wire Line
+	4275 1275 3925 1275
+Connection ~ 3925 1275
+Wire Wire Line
+	3925 1275 3925 1750
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 2 1 5D4E06EF
+P 2250 1750
+AR Path="/5B8C674E/5D4E06EF" Ref="U?"  Part="1" 
+AR Path="/5D4E06EF" Ref="U?"  Part="2" 
+AR Path="/5D4A5981/5D4E06EF" Ref="U?"  Part="2" 
+F 0 "U?" H 2300 1850 50  0000 L CNN
+F 1 "072" H 2225 1975 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 2250 1750 60  0001 C CNN
+F 3 "" H 2250 1750 60  0000 C CNN
+F 4 "Mouser" H -875 -675 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -875 -675 50  0001 C CNN "Comments"
+	2    2250 1750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1950 1650 1950 1400
+Wire Wire Line
+	2550 1400 2550 1750
+Wire Wire Line
+	2550 1750 2575 1750
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E06F8
+P 9400 2825
+AR Path="/5B8C674E/5D4E06F8" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E06F8" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E06F8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9400 2575 50  0001 C CNN
+F 1 "GND" H 9400 2675 50  0001 C CNN
+F 2 "" H 9400 2825 50  0000 C CNN
+F 3 "" H 9400 2825 50  0000 C CNN
+	1    9400 2825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 1600 6275 1600
+Wire Wire Line
+	6500 1600 6425 1600
+Connection ~ 6425 1600
+Wire Wire Line
+	6425 1450 6425 1600
+Wire Wire Line
+	7625 2575 7625 2375
+Wire Wire Line
+	6275 1250 6275 1300
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0709
+P 5175 1500
+AR Path="/5B8C674E/5D4E0709" Ref="R?"  Part="1" 
+AR Path="/5D4E0709" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E0709" Ref="R?"  Part="1" 
+F 0 "R?" V 5075 1500 50  0000 C CNN
+F 1 "1k" V 5275 1500 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 5175 1500 60  0001 C CNN
+F 3 "" H 5175 1500 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -425 -300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -425 -300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -425 -300 50  0001 C CNN "Package"
+	1    5175 1500
+	0    -1   -1   0   
+$EndComp
+Text Notes 11500 4450 0    98   ~ 20
+\n
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 2 1 5D4E0712
+P 5200 3625
+AR Path="/5B8C674E/5D4E0712" Ref="U?"  Part="1" 
+AR Path="/5D4E0712" Ref="U?"  Part="2" 
+AR Path="/5D4A5981/5D4E0712" Ref="U?"  Part="2" 
+F 0 "U?" H 5250 3725 50  0000 L CNN
+F 1 "072" H 5195 3795 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 5200 3625 60  0001 C CNN
+F 3 "" H 5200 3625 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+	2    5200 3625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1325 1850 1375 1850
+Wire Wire Line
+	1575 1850 1950 1850
+$Comp
+L 4ms-mech:POT Level_?
+U 1 1 5D4E071E
+P 6350 2500
+AR Path="/5B8C674E/5D4E071E" Ref="Level_?"  Part="1" 
+AR Path="/5D4E071E" Ref="Level_?"  Part="1" 
+AR Path="/5D4A5981/5D4E071E" Ref="Level_?"  Part="1" 
+F 0 "Level_?" H 6500 2650 50  0000 C CNN
+F 1 "100k" H 6500 2575 50  0000 C CNN
+F 2 "4ms_Potentiometer:Pot_9mm_Knurl_NoDet" H 6350 2500 60  0001 C CNN
+F 3 "" H 6350 2500 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "2" H -425 -300 50  0001 C CNN "Points"
+F 7 "SMD" H -425 -300 50  0001 C CNN "SMD/TH"
+	1    6350 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3975 5500 3625
+$Comp
+L 4ms-mech:DPDT-shielded-sep SW?
+U 1 1 5D4E0727
+P 5125 3125
+F 0 "SW?" V 5200 3450 50  0000 R CNN
+F 1 "SPST" V 5275 3450 50  0000 R CNN
+F 2 "4ms_Switch:Slide_Switch_Runrun_SS22D06" H 5125 3125 50  0001 C CNN
+F 3 "" H 5125 3125 50  0001 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+	1    5125 3125
+	1    0    0    1   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0732
+P 5175 2225
+AR Path="/5B8C674E/5D4E0732" Ref="R?"  Part="1" 
+AR Path="/5D4E0732" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E0732" Ref="R?"  Part="1" 
+F 0 "R?" V 5075 2225 50  0000 C CNN
+F 1 "1k" V 5275 2225 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 5175 2225 60  0001 C CNN
+F 3 "" H 5175 2225 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -425 -300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -425 -300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -425 -300 50  0001 C CNN "Package"
+	1    5175 2225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 3775 5900 3775
+Wire Wire Line
+	5900 3775 5900 3625
+$Comp
+L 4ms-passives:D D?
+U 1 1 5D4E073F
+P 6050 3625
+F 0 "D?" H 6050 3800 50  0000 C CNN
+F 1 "SD103" H 6075 3725 50  0000 C CNN
+F 2 "4ms_Diode:D_SOD-323F" H 6050 3625 50  0001 C CNN
+F 3 "" H 6050 3625 50  0001 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "SOD123" H -425 -300 50  0001 C CNN "Package"
+F 7 "2" H -425 -300 50  0001 C CNN "Points"
+F 8 "SMD" H -425 -300 50  0001 C CNN "SMD/TH"
+	1    6050 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E074A
+P 6225 3800
+AR Path="/5B8C674E/5D4E074A" Ref="R?"  Part="1" 
+AR Path="/5D4E074A" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E074A" Ref="R?"  Part="1" 
+F 0 "R?" H 6325 3875 50  0000 C CNN
+F 1 "1k" H 6325 3800 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 6225 3800 60  0001 C CNN
+F 3 "" H 6225 3800 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -425 -300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -425 -300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -425 -300 50  0001 C CNN "Package"
+	1    6225 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:D D?
+U 1 1 5D4E0755
+P 5875 3975
+F 0 "D?" H 5900 4150 50  0000 C CNN
+F 1 "SD103" H 5900 4075 50  0000 C CNN
+F 2 "4ms_Diode:D_SOD-323F" H 5875 3975 50  0001 C CNN
+F 3 "" H 5875 3975 50  0001 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "SOD123" H -425 -300 50  0001 C CNN "Package"
+F 7 "2" H -425 -300 50  0001 C CNN "Points"
+F 8 "SMD" H -425 -300 50  0001 C CNN "SMD/TH"
+	1    5875 3975
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 3625 5600 3625
+Connection ~ 5500 3975
+Wire Wire Line
+	6225 3975 6225 3950
+Wire Wire Line
+	6200 3625 6225 3625
+Wire Wire Line
+	6225 3625 6225 3650
+Connection ~ 6225 3975
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0761
+P 6225 4175
+AR Path="/5B8C674E/5D4E0761" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0761" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0761" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6225 3925 50  0001 C CNN
+F 1 "GND" H 6225 4025 50  0000 C CNN
+F 2 "" H 6225 4175 50  0000 C CNN
+F 3 "" H 6225 4175 50  0000 C CNN
+	1    6225 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:4001 U?
+U 3 1 5D4E0769
+P 5775 2650
+AR Path="/5B8C674E/5D4E0769" Ref="U?"  Part="1" 
+AR Path="/5D4E0769" Ref="U?"  Part="3" 
+AR Path="/5D4A5981/5D4E0769" Ref="U?"  Part="3" 
+F 0 "U?" H 5525 2875 50  0000 L CNN
+F 1 "CD4001" H 5770 2820 50  0000 L CNN
+F 2 "4ms_Package_SOIC:SOIC-14_3.9x8.65mm_Pitch1.27mm" H 5775 2650 60  0001 C CNN
+F 3 "" H 5775 2650 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+	3    5775 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:4001 U?
+U 4 1 5D4E0771
+P 6800 2650
+AR Path="/5B8C674E/5D4E0771" Ref="U?"  Part="1" 
+AR Path="/5D4E0771" Ref="U?"  Part="4" 
+AR Path="/5D4A5981/5D4E0771" Ref="U?"  Part="4" 
+F 0 "U?" H 6900 2525 50  0000 L CNN
+F 1 "CD4001" H 6795 2820 50  0000 L CNN
+F 2 "4ms_Package_SOIC:SOIC-14_3.9x8.65mm_Pitch1.27mm" H 6800 2650 60  0001 C CNN
+F 3 "" H 6800 2650 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+	4    6800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E077E
+P 6175 2650
+AR Path="/5B8C674E/5D4E077E" Ref="C?"  Part="1" 
+AR Path="/5D4E077E" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E077E" Ref="C?"  Part="1" 
+F 0 "C?" V 5975 2625 50  0000 L CNN
+F 1 "10uF 16v" V 6050 2575 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0805" H 6175 2650 50  0001 C CNN
+F 3 "" H 6175 2650 50  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "Min. 25V, X5R/X6S/X7R/X7S, 0805, MLCC" H -425 -300 50  0001 C CNN "Designation"
+F 7 "C0805" H -425 -300 50  0001 C CNN "Package"
+F 8 "TEST" H -425 -300 50  0001 C CNN "Part Number"
+F 9 "2" H -425 -300 50  0001 C CNN "Points"
+F 10 "SMD" H -425 -300 50  0001 C CNN "SMD/TH"
+	1    6175 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0789
+P 6350 2200
+AR Path="/5B8C674E/5D4E0789" Ref="R?"  Part="1" 
+AR Path="/5D4E0789" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E0789" Ref="R?"  Part="1" 
+F 0 "R?" H 6250 2125 50  0000 C CNN
+F 1 "1k" H 6150 2200 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 6350 2200 60  0001 C CNN
+F 3 "" H 6350 2200 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -425 -300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -425 -300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -425 -300 50  0001 C CNN "Package"
+	1    6350 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 5D4E078F
+P 6350 2050
+AR Path="/5B8C674E/5D4E078F" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E078F" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E078F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6350 1900 50  0001 C CNN
+F 1 "+12V" H 6200 2125 50  0000 C CNN
+F 2 "" H 6350 2050 50  0000 C CNN
+F 3 "" H 6350 2050 50  0000 C CNN
+	1    6350 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 2650
+Wire Wire Line
+	6500 2650 6500 2750
+Wire Wire Line
+	5475 2950 7125 2950
+Wire Wire Line
+	5475 2750 5475 2950
+Wire Wire Line
+	7100 2650 7125 2650
+Wire Wire Line
+	7125 2650 7125 2950
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E079B
+P 4750 3825
+AR Path="/5B8C674E/5D4E079B" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E079B" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E079B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 3575 50  0001 C CNN
+F 1 "GND" H 4750 3675 50  0000 C CNN
+F 2 "" H 4750 3825 50  0000 C CNN
+F 3 "" H 4750 3825 50  0000 C CNN
+	1    4750 3825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3975 5725 3975
+Wire Wire Line
+	6025 3975 6225 3975
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E07A3
+P 8925 2625
+AR Path="/5B8C674E/5D4E07A3" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E07A3" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E07A3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8925 2375 50  0001 C CNN
+F 1 "GND" H 8925 2475 50  0001 C CNN
+F 2 "" H 8925 2625 50  0000 C CNN
+F 3 "" H 8925 2625 50  0000 C CNN
+	1    8925 2625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E07AE
+P 8400 2575
+AR Path="/5B8C674E/5D4E07AE" Ref="R?"  Part="1" 
+AR Path="/5D4E07AE" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E07AE" Ref="R?"  Part="1" 
+F 0 "R?" H 8275 2600 50  0000 C CNN
+F 1 "47k" H 8275 2525 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 8400 2575 60  0001 C CNN
+F 3 "" H 8400 2575 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -425 -300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -425 -300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -425 -300 50  0001 C CNN "Package"
+	1    8400 2575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E07B9
+P 4725 2825
+AR Path="/5B8C674E/5D4E07B9" Ref="R?"  Part="1" 
+AR Path="/5D4E07B9" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E07B9" Ref="R?"  Part="1" 
+F 0 "R?" V 4800 2900 50  0000 C CNN
+F 1 "1k" V 4800 2750 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 4725 2825 60  0001 C CNN
+F 3 "" H 4725 2825 60  0000 C CNN
+F 4 "Mouser" H -725 25  50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -725 25  50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -725 25  50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -725 25  50  0001 C CNN "Part Number"
+F 8 "C0603" H -725 25  50  0001 C CNN "Package"
+	1    4725 2825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 2575 8225 2575
+Wire Wire Line
+	8850 2575 8925 2575
+Wire Wire Line
+	8925 2575 8925 2625
+$Comp
+L 4ms-mech:TRIMPOT TR?
+U 1 1 5D4E07C4
+P 6275 1450
+F 0 "TR?" H 6205 1496 50  0000 R CNN
+F 1 "100k" H 7325 1575 50  0000 R CNN
+F 2 "4ms_Potentiometer:Pot_Trim_SMT_TC33X" H 6475 1200 50  0001 C CNN
+F 3 "" H 6275 1450 50  0001 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+	1    6275 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5475 1500 5325 1500
+Wire Wire Line
+	5475 1700 5475 1800
+Wire Wire Line
+	5475 1800 7125 1800
+Wire Wire Line
+	7100 1600 7125 1600
+Wire Wire Line
+	5475 1800 5475 2550
+Connection ~ 5475 1800
+Wire Wire Line
+	7125 1600 7125 1800
+Wire Wire Line
+	7125 2650 7125 2175
+Wire Wire Line
+	7475 2175 7625 2175
+Connection ~ 7125 2650
+Wire Wire Line
+	8225 2875 8225 3225
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E07DA
+P 5200 3975
+AR Path="/5B8C674E/5D4E07DA" Ref="R?"  Part="1" 
+AR Path="/5D4E07DA" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E07DA" Ref="R?"  Part="1" 
+F 0 "R?" V 5300 3975 50  0000 C CNN
+F 1 "22k" V 5100 3975 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 5200 3975 60  0001 C CNN
+F 3 "" H 5200 3975 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -425 -300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -425 -300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -425 -300 50  0001 C CNN "Package"
+	1    5200 3975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E07E0
+P 5250 4400
+AR Path="/5B8C674E/5D4E07E0" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E07E0" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E07E0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5250 4150 50  0001 C CNN
+F 1 "GND" H 5375 4375 50  0001 C CNN
+F 2 "" H 5250 4400 50  0000 C CNN
+F 3 "" H 5250 4400 50  0000 C CNN
+	1    5250 4400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 2225 5325 3025
+Wire Wire Line
+	4900 3725 4900 3975
+Wire Wire Line
+	5050 3975 4900 3975
+Connection ~ 4900 3975
+Wire Wire Line
+	5350 3975 5500 3975
+Wire Wire Line
+	6750 3550 7350 3550
+Wire Wire Line
+	7350 3550 7350 3875
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E07F2
+P 8875 3475
+AR Path="/5B8C674E/5D4E07F2" Ref="R?"  Part="1" 
+AR Path="/5D4E07F2" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E07F2" Ref="R?"  Part="1" 
+F 0 "R?" V 8975 3525 50  0000 C CNN
+F 1 "1k" V 8975 3400 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 8875 3475 60  0001 C CNN
+F 3 "" H 8875 3475 60  0000 C CNN
+F 4 "Mouser" H 675 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -375 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 675 -375 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 675 -375 50  0001 C CNN "Part Number"
+F 8 "C0603" H 675 -375 50  0001 C CNN "Package"
+	1    8875 3475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E07F8
+P 10400 4025
+AR Path="/5B8C674E/5D4E07F8" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E07F8" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E07F8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10400 3775 50  0001 C CNN
+F 1 "GND" H 10400 3875 50  0001 C CNN
+F 2 "" H 10400 4025 50  0000 C CNN
+F 3 "" H 10400 4025 50  0000 C CNN
+	1    10400 4025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-mech:JACK-MONO GATE?
+U 1 1 5D4E0801
+P 10200 3625
+AR Path="/5B8C674E/5D4E0801" Ref="GATE?"  Part="1" 
+AR Path="/5D4E0801" Ref="GATE?"  Part="1" 
+AR Path="/5D4A5981/5D4E0801" Ref="GATE?"  Part="1" 
+F 0 "GATE?" H 10200 3525 60  0000 C CNN
+F 1 "JACK-MONO" H 10350 3400 60  0000 C CNN
+F 2 "4ms_Jack:EighthInch_PJ398SM" H 10200 3625 60  0001 C CNN
+F 3 "" H 10200 3625 60  0000 C CNN
+F 4 "Mouser" H 675 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -375 50  0001 C CNN "Comments"
+F 6 "2" H 675 -375 50  0001 C CNN "Points"
+	1    10200 3625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:LED ENV_LED?
+U 1 1 5D4E080A
+P 9225 3800
+F 0 "ENV_LED?" H 9200 3750 45  0000 R CNN
+F 1 "LED" H 9225 3850 45  0000 R CNN
+F 2 "4ms_LED:LED_0603_1608Metric" H 9255 3950 20  0001 C CNN
+F 3 "" H 9225 3800 60  0001 C CNN
+F 4 "Mouser" H 675 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -375 50  0001 C CNN "Comments"
+F 6 "2" H 675 -375 50  0001 C CNN "Points"
+	1    9225 3800
+	-1   0    0    1   
+$EndComp
+NoConn ~ 9950 3625
+Wire Wire Line
+	9025 3475 9550 3475
+Wire Wire Line
+	8725 3475 8450 3475
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0818
+P 8875 3800
+AR Path="/5B8C674E/5D4E0818" Ref="R?"  Part="1" 
+AR Path="/5D4E0818" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E0818" Ref="R?"  Part="1" 
+F 0 "R?" V 8775 3875 50  0000 C CNN
+F 1 "10k" V 8775 3725 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 8875 3800 60  0001 C CNN
+F 3 "" H 8875 3800 60  0000 C CNN
+F 4 "Mouser" H 675 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -375 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 675 -375 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 675 -375 50  0001 C CNN "Part Number"
+F 8 "C0603" H 675 -375 50  0001 C CNN "Package"
+	1    8875 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8725 3800 8450 3800
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E081F
+P 9375 3850
+AR Path="/5B8C674E/5D4E081F" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E081F" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E081F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9375 3600 50  0001 C CNN
+F 1 "GND" H 9375 3700 50  0001 C CNN
+F 2 "" H 9375 3850 50  0000 C CNN
+F 3 "" H 9375 3850 50  0000 C CNN
+	1    9375 3850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9325 3800 9375 3800
+Wire Wire Line
+	9375 3800 9375 3850
+Wire Wire Line
+	9350 4125 9550 4125
+Wire Wire Line
+	9150 4125 8925 4125
+Wire Wire Line
+	8925 4125 8925 4250
+Wire Wire Line
+	8950 4600 8925 4600
+Wire Wire Line
+	8925 4400 8950 4400
+Wire Wire Line
+	9250 4975 9250 4850
+Wire Wire Line
+	9175 4975 9250 4975
+Wire Wire Line
+	8975 4975 8925 4975
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E082F
+P 10200 4300
+AR Path="/5B8C674E/5D4E082F" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E082F" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E082F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10200 4050 50  0001 C CNN
+F 1 "GND" H 10200 4150 50  0001 C CNN
+F 2 "" H 10200 4300 50  0000 C CNN
+F 3 "" H 10200 4300 50  0000 C CNN
+	1    10200 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:LED INV_LED?
+U 1 1 5D4E0838
+P 10050 4250
+F 0 "INV_LED?" H 10025 4200 45  0000 R CNN
+F 1 "LED" H 10050 4300 45  0000 R CNN
+F 2 "4ms_LED:LED_0603_1608Metric" H 10080 4400 20  0001 C CNN
+F 3 "" H 10050 4250 60  0001 C CNN
+F 4 "Mouser" H 675 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -375 50  0001 C CNN "Comments"
+F 6 "2" H 675 -375 50  0001 C CNN "Points"
+	1    10050 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0843
+P 9700 4500
+AR Path="/5B8C674E/5D4E0843" Ref="R?"  Part="1" 
+AR Path="/5D4E0843" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E0843" Ref="R?"  Part="1" 
+F 0 "R?" V 9600 4575 50  0000 C CNN
+F 1 "1k" V 9600 4425 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 9700 4500 60  0001 C CNN
+F 3 "" H 9700 4500 60  0000 C CNN
+F 4 "Mouser" H 675 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -375 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 675 -375 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 675 -375 50  0001 C CNN "Part Number"
+F 8 "C0603" H 675 -375 50  0001 C CNN "Package"
+	1    9700 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9225 4850 9250 4850
+Wire Wire Line
+	9550 4250 9550 4125
+Connection ~ 9550 4250
+Wire Wire Line
+	8925 4250 9100 4250
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E084D
+P 9250 4975
+AR Path="/5B8C674E/5D4E084D" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E084D" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E084D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9250 4725 50  0001 C CNN
+F 1 "GND" H 9375 4950 50  0001 C CNN
+F 2 "" H 9250 4975 50  0000 C CNN
+F 3 "" H 9250 4975 50  0000 C CNN
+	1    9250 4975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E085A
+P 9075 4975
+AR Path="/5B8C674E/5D4E085A" Ref="C?"  Part="1" 
+AR Path="/5D4E085A" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E085A" Ref="C?"  Part="1" 
+F 0 "C?" H 8900 5050 50  0000 L CNN
+F 1 "1uF" H 8925 4900 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 9075 4975 50  0001 C CNN
+F 3 "" H 9075 4975 50  0000 C CNN
+F 4 "Mouser" H 675 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -375 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 675 -375 50  0001 C CNN "Designation"
+F 7 "C0603" H 675 -375 50  0001 C CNN "Package"
+F 8 "TES" H 675 -375 50  0001 C CNN "Part Number"
+F 9 "2" H 675 -375 50  0001 C CNN "Points"
+F 10 "SMD" H 675 -375 50  0001 C CNN "SMD/TH"
+	1    9075 4975
+	0    1    -1   0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E0867
+P 9250 4125
+AR Path="/5B8C674E/5D4E0867" Ref="C?"  Part="1" 
+AR Path="/5D4E0867" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E0867" Ref="C?"  Part="1" 
+F 0 "C?" V 9300 4175 50  0000 L CNN
+F 1 "20pF" V 9300 3900 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 9250 4125 50  0001 C CNN
+F 3 "" H 9250 4125 50  0000 C CNN
+F 4 "Mouser" H 675 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -375 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 675 -375 50  0001 C CNN "Designation"
+F 7 "C0603" H 675 -375 50  0001 C CNN "Package"
+F 8 "TEST" H 675 -375 50  0001 C CNN "Part Number"
+F 9 "2" H 675 -375 50  0001 C CNN "Points"
+F 10 "SMD" H 675 -375 50  0001 C CNN "SMD/TH"
+	1    9250 4125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0872
+P 9250 4250
+AR Path="/5B8C674E/5D4E0872" Ref="R?"  Part="1" 
+AR Path="/5D4E0872" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E0872" Ref="R?"  Part="1" 
+F 0 "R?" V 9200 4075 50  0000 C CNN
+F 1 "100k" V 9200 4450 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 9250 4250 60  0001 C CNN
+F 3 "" H 9250 4250 60  0000 C CNN
+F 4 "Mouser" H 675 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -375 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 675 -375 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 675 -375 50  0001 C CNN "Part Number"
+F 8 "C0603" H 675 -375 50  0001 C CNN "Package"
+	1    9250 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E087D
+P 8775 4400
+AR Path="/5B8C674E/5D4E087D" Ref="R?"  Part="1" 
+AR Path="/5D4E087D" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E087D" Ref="R?"  Part="1" 
+F 0 "R?" V 8675 4400 50  0000 C CNN
+F 1 "100k" V 8600 4400 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 8775 4400 60  0001 C CNN
+F 3 "" H 8775 4400 60  0000 C CNN
+F 4 "Mouser" H 675 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -375 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 675 -375 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 675 -375 50  0001 C CNN "Part Number"
+F 8 "C0603" H 675 -375 50  0001 C CNN "Package"
+	1    8775 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 5D4E0883
+P 8575 4800
+AR Path="/5B8C674E/5D4E0883" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0883" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0883" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8575 4650 50  0001 C CNN
+F 1 "+12V" H 8775 4875 50  0000 C CNN
+F 2 "" H 8575 4800 50  0000 C CNN
+F 3 "" H 8575 4800 50  0000 C CNN
+	1    8575 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E088E
+P 9075 4850
+AR Path="/5B8C674E/5D4E088E" Ref="R?"  Part="1" 
+AR Path="/5D4E088E" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E088E" Ref="R?"  Part="1" 
+F 0 "R?" V 9025 4675 50  0000 C CNN
+F 1 "10k" V 8975 4850 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 9075 4850 60  0001 C CNN
+F 3 "" H 9075 4850 60  0000 C CNN
+F 4 "Mouser" H 675 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -375 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 675 -375 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 675 -375 50  0001 C CNN "Part Number"
+F 8 "C0603" H 675 -375 50  0001 C CNN "Package"
+	1    9075 4850
+	0    -1   1    0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0899
+P 8775 4850
+AR Path="/5B8C674E/5D4E0899" Ref="R?"  Part="1" 
+AR Path="/5D4E0899" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E0899" Ref="R?"  Part="1" 
+F 0 "R?" V 8675 4850 50  0000 C CNN
+F 1 "20k" V 8850 4875 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 8775 4850 60  0001 C CNN
+F 3 "" H 8775 4850 60  0000 C CNN
+F 4 "Mouser" H 675 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -375 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 675 -375 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 675 -375 50  0001 C CNN "Part Number"
+F 8 "C0603" H 675 -375 50  0001 C CNN "Package"
+	1    8775 4850
+	0    -1   1    0   
+$EndComp
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 1 1 5D4E08A1
+P 9250 4500
+AR Path="/5B8C674E/5D4E08A1" Ref="U?"  Part="2" 
+AR Path="/5D4E08A1" Ref="U?"  Part="1" 
+AR Path="/5D4A5981/5D4E08A1" Ref="U?"  Part="1" 
+F 0 "U?" H 9300 4600 50  0000 L CNN
+F 1 "072" H 9300 4400 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 9250 4500 60  0001 C CNN
+F 3 "" H 9250 4500 60  0000 C CNN
+F 4 "Mouser" H 675 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -375 50  0001 C CNN "Comments"
+	1    9250 4500
+	1    0    0    1   
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E08A7
+P 10700 5050
+AR Path="/5B8C674E/5D4E08A7" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E08A7" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E08A7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10700 4800 50  0001 C CNN
+F 1 "GND" H 10700 4900 50  0000 C CNN
+F 2 "" H 10700 5050 50  0000 C CNN
+F 3 "" H 10700 5050 50  0000 C CNN
+	1    10700 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-mech:JACK-MONO GATE?
+U 1 1 5D4E08B0
+P 10500 4650
+AR Path="/5B8C674E/5D4E08B0" Ref="GATE?"  Part="1" 
+AR Path="/5D4E08B0" Ref="GATE?"  Part="1" 
+AR Path="/5D4A5981/5D4E08B0" Ref="GATE?"  Part="1" 
+F 0 "GATE?" H 10475 4425 60  0000 C CNN
+F 1 "JACK-MONO" H 10650 4525 60  0000 C CNN
+F 2 "4ms_Jack:EighthInch_PJ398SM" H 10500 4650 60  0001 C CNN
+F 3 "" H 10500 4650 60  0000 C CNN
+F 4 "Mouser" H 675 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -375 50  0001 C CNN "Comments"
+F 6 "2" H 675 -375 50  0001 C CNN "Points"
+	1    10500 4650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8925 4400 8925 4250
+Connection ~ 8925 4250
+Wire Wire Line
+	9400 4250 9550 4250
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E08BE
+P 9700 4250
+AR Path="/5B8C674E/5D4E08BE" Ref="R?"  Part="1" 
+AR Path="/5D4E08BE" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E08BE" Ref="R?"  Part="1" 
+F 0 "R?" H 9575 4275 50  0000 C CNN
+F 1 "10k" H 9575 4200 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 9700 4250 60  0001 C CNN
+F 3 "" H 9700 4250 60  0000 C CNN
+F 4 "Mouser" H 675 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -375 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 675 -375 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 675 -375 50  0001 C CNN "Part Number"
+F 8 "C0603" H 675 -375 50  0001 C CNN "Package"
+	1    9700 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10150 4250 10200 4250
+Wire Wire Line
+	10200 4250 10200 4300
+NoConn ~ 10250 4650
+Wire Wire Line
+	8575 4800 8575 4850
+Wire Wire Line
+	8575 4850 8625 4850
+Wire Wire Line
+	8450 4400 8625 4400
+$Comp
+L 4ms-passives:D D?
+U 1 1 5D4E08CF
+P 4750 3675
+F 0 "D?" V 4875 3550 50  0000 C CNN
+F 1 "SD103" V 4950 3500 50  0000 C CNN
+F 2 "4ms_Diode:D_SOD-323F" H 4750 3675 50  0001 C CNN
+F 3 "" H 4750 3675 50  0001 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "SOD123" H -425 -300 50  0001 C CNN "Package"
+F 7 "2" H -425 -300 50  0001 C CNN "Points"
+F 8 "SMD" H -425 -300 50  0001 C CNN "SMD/TH"
+	1    4750 3675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 3525 4900 3525
+Wire Wire Line
+	4750 3125 4750 3525
+Wire Wire Line
+	4750 3125 4925 3125
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E08DD
+P 7275 2175
+AR Path="/5B8C674E/5D4E08DD" Ref="R?"  Part="1" 
+AR Path="/5D4E08DD" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E08DD" Ref="R?"  Part="1" 
+F 0 "R?" H 7375 2250 50  0000 C CNN
+F 1 "33k" H 7375 2175 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 7275 2175 60  0001 C CNN
+F 3 "" H 7275 2175 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -425 -300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -425 -300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -425 -300 50  0001 C CNN "Package"
+	1    7275 2175
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E08E8
+P 7475 2375
+AR Path="/5B8C674E/5D4E08E8" Ref="R?"  Part="1" 
+AR Path="/5D4E08E8" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E08E8" Ref="R?"  Part="1" 
+F 0 "R?" H 7575 2450 50  0000 C CNN
+F 1 "100k" H 7575 2375 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 7475 2375 60  0001 C CNN
+F 3 "" H 7475 2375 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -425 -300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -425 -300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -425 -300 50  0001 C CNN "Package"
+	1    7475 2375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7425 2175 7475 2175
+Wire Wire Line
+	7475 2175 7475 2225
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E08F0
+P 7475 2525
+AR Path="/5B8C674E/5D4E08F0" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E08F0" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E08F0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7475 2275 50  0001 C CNN
+F 1 "GND" H 7475 2375 50  0000 C CNN
+F 2 "" H 7475 2525 50  0000 C CNN
+F 3 "" H 7475 2525 50  0000 C CNN
+	1    7475 2525
+	1    0    0    -1  
+$EndComp
+Connection ~ 7475 2175
+Wire Wire Line
+	5325 3225 8225 3225
+Wire Wire Line
+	6750 3775 6750 3550
+Wire Wire Line
+	4475 3550 4400 3550
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 5D4E08FA
+P 4475 3550
+F 0 "#PWR?" H 4475 3400 50  0001 C CNN
+F 1 "+12V" H 4525 3700 50  0000 C CNN
+F 2 "" H 4475 3550 50  0000 C CNN
+F 3 "" H 4475 3550 50  0000 C CNN
+	1    4475 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0900
+P 3500 3625
+F 0 "#PWR?" H 3500 3375 50  0001 C CNN
+F 1 "GND" H 3525 3450 50  0000 C CNN
+F 2 "" H 3500 3625 50  0000 C CNN
+F 3 "" H 3500 3625 50  0000 C CNN
+	1    3500 3625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E090B
+P 3500 3475
+F 0 "R?" H 3375 3450 50  0000 C CNN
+F 1 "10K" H 3375 3525 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 3500 3475 60  0001 C CNN
+F 3 "" H 3500 3475 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -425 -300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -425 -300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -425 -300 50  0001 C CNN "Package"
+	1    3500 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:MBT3904DW1 Q?
+U 2 1 5D4E0913
+P 3400 3125
+F 0 "Q?" H 3600 3200 50  0000 L CNN
+F 1 "MBT3904DW1" H 3600 3100 50  0000 L CNN
+F 2 "4ms_Package_SOT:SOT-363_SC-70-6" H 3600 3225 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF" H 3400 3125 50  0001 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+	2    3400 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3925 3750 3925 3925
+Wire Wire Line
+	4000 3750 3925 3750
+NoConn ~ 4000 3550
+Wire Wire Line
+	4000 3350 3950 3350
+$Comp
+L 4ms-passives:LED-RGB-CA LED?
+U 1 1 5D4E091F
+P 4200 3550
+F 0 "LED?" H 4300 3275 50  0000 C CNN
+F 1 "RGB" H 4300 3200 50  0000 C CNN
+F 2 "4ms_LED:LED_PLCC-4" H 4200 3550 50  0001 C CNN
+F 3 "" H 4200 3550 50  0001 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+	1    4200 3550
+	1    0    0    1   
+$EndComp
+$Comp
+L 4ms-ic:MBT3904DW1 Q?
+U 1 1 5D4E0927
+P 3825 4125
+F 0 "Q?" H 4000 4150 50  0000 L CNN
+F 1 "MBT3904DW1" H 3975 4225 50  0000 L CNN
+F 2 "4ms_Package_SOT:SOT-363_SC-70-6" H 4025 4225 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF" H 3825 4125 50  0001 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+	1    3825 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E092D
+P 3925 4625
+F 0 "#PWR?" H 3925 4375 50  0001 C CNN
+F 1 "GND" H 3950 4450 50  0000 C CNN
+F 2 "" H 3925 4625 50  0000 C CNN
+F 3 "" H 3925 4625 50  0000 C CNN
+	1    3925 4625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0938
+P 3925 4475
+F 0 "R?" H 4050 4500 50  0000 C CNN
+F 1 "4K7" H 4050 4425 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 3925 4475 60  0001 C CNN
+F 3 "" H 3925 4475 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -425 -300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -425 -300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -425 -300 50  0001 C CNN "Package"
+	1    3925 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 1 1 5D4E0940
+P 3325 4125
+AR Path="/5B8C674E/5D4E0940" Ref="U?"  Part="2" 
+AR Path="/5D4E0940" Ref="U?"  Part="1" 
+AR Path="/5D4A5981/5D4E0940" Ref="U?"  Part="1" 
+F 0 "U?" H 3375 4225 50  0000 L CNN
+F 1 "NJM" H 3375 4025 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 3325 4125 60  0001 C CNN
+F 3 "" H 3325 4125 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+	1    3325 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0946
+P 2650 4675
+AR Path="/5C53B5D6/5D4E0946" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0946" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0946" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2650 4425 50  0001 C CNN
+F 1 "GND" H 2650 4525 50  0000 C CNN
+F 2 "" H 2650 4675 50  0000 C CNN
+F 3 "" H 2650 4675 50  0000 C CNN
+	1    2650 4675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 5D4E094C
+P 2650 3775
+F 0 "#PWR?" H 2650 3625 50  0001 C CNN
+F 1 "+12V" H 2750 3925 50  0000 C CNN
+F 2 "" H 2650 3775 50  0000 C CNN
+F 3 "" H 2650 3775 50  0000 C CNN
+	1    2650 3775
+	-1   0    0    -1  
+$EndComp
+Text Label 3025 4775 2    40   ~ 0
+In_LED
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0958
+P 2650 3925
+F 0 "R?" H 2775 3900 50  0000 C CNN
+F 1 "49k9" H 2800 3975 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 2650 3925 60  0001 C CNN
+F 3 "" H 2650 3925 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -425 -300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -425 -300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -425 -300 50  0001 C CNN "Package"
+	1    2650 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0963
+P 2650 4525
+F 0 "R?" H 2775 4500 50  0000 C CNN
+F 1 "47k" H 2775 4575 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 2650 4525 60  0001 C CNN
+F 3 "" H 2650 4525 60  0000 C CNN
+F 4 "Mouser" H -425 -300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -425 -300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -425 -300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -425 -300 50  0001 C CNN "Package"
+	1    2650 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2925 3950 2925
+Wire Wire Line
+	3950 2925 3950 3350
+Wire Wire Line
+	3025 4025 3025 3125
+Wire Wire Line
+	3025 3125 3200 3125
+Text Notes 1525 3450 0    150  Italic 30
+INPUT CLIP
+Text Notes 2975 875  0    150  Italic 30
+GAIN STAGING
+Text Notes 6550 1175 0    150  Italic 30
+ONE-SHOT/GATE
+Text Notes 6700 5125 0    150  Italic 30
+ENVELOPES
+Text Notes 4600 4700 0    50   ~ 0
+-results in -20mV 
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 2 1 5D4E0974
+P 8150 3775
+AR Path="/5B8C674E/5D4E0974" Ref="U?"  Part="2" 
+AR Path="/5D4E0974" Ref="U?"  Part="2" 
+AR Path="/5D4A5981/5D4E0974" Ref="U?"  Part="2" 
+F 0 "U?" H 8200 3875 50  0000 L CNN
+F 1 "072" H 8200 3675 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 8150 3775 60  0001 C CNN
+F 3 "" H 8150 3775 60  0000 C CNN
+F 4 "Mouser" H -425 -1100 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -425 -1100 50  0001 C CNN "Comments"
+	2    8150 3775
+	1    0    0    1   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E097F
+P 7500 3875
+AR Path="/5B8C674E/5D4E097F" Ref="R?"  Part="1" 
+AR Path="/5D4E097F" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E097F" Ref="R?"  Part="1" 
+F 0 "R?" V 7600 3925 50  0000 C CNN
+F 1 "4k7" V 7600 3800 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 7500 3875 60  0001 C CNN
+F 3 "" H 7500 3875 60  0000 C CNN
+F 4 "Mouser" H -700 25  50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -700 25  50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -700 25  50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -700 25  50  0001 C CNN "Part Number"
+F 8 "C0603" H -700 25  50  0001 C CNN "Package"
+	1    7500 3875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E098A
+P 7650 4025
+AR Path="/5B8C674E/5D4E098A" Ref="R?"  Part="1" 
+AR Path="/5D4E098A" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E098A" Ref="R?"  Part="1" 
+F 0 "R?" H 7525 3975 50  0000 C CNN
+F 1 "13k" H 7550 4050 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 7650 4025 60  0001 C CNN
+F 3 "" H 7650 4025 60  0000 C CNN
+F 4 "Mouser" H -550 175 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -550 175 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -550 175 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -550 175 50  0001 C CNN "Part Number"
+F 8 "C0603" H -550 175 50  0001 C CNN "Package"
+	1    7650 4025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3675 7850 3475
+Wire Wire Line
+	7850 3475 8450 3475
+Connection ~ 8450 3475
+Wire Wire Line
+	8450 4400 8450 3800
+Connection ~ 8450 3800
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E099A
+P 5075 4375
+F 0 "R?" V 5175 4325 50  0000 C CNN
+F 1 "10k" V 5250 4300 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 5075 4375 60  0001 C CNN
+F 3 "" H 5075 4375 60  0000 C CNN
+F 4 "Mouser" H 725 -400 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 725 -400 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 725 -400 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 725 -400 50  0001 C CNN "Part Number"
+F 8 "C0603" H 725 -400 50  0001 C CNN "Package"
+	1    5075 4375
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E09A5
+P 4725 4375
+F 0 "R?" V 4825 4325 50  0000 C CNN
+F 1 "1M" V 4900 4300 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 4725 4375 60  0001 C CNN
+F 3 "" H 4725 4375 60  0000 C CNN
+F 4 "Mouser" H 375 -400 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -400 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 375 -400 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 375 -400 50  0001 C CNN "Part Number"
+F 8 "C0603" H 375 -400 50  0001 C CNN "Package"
+	1    4725 4375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5225 4375 5250 4375
+Wire Wire Line
+	5250 4375 5250 4400
+Wire Wire Line
+	4925 4375 4900 4375
+Connection ~ 4900 4375
+Wire Wire Line
+	4900 4375 4875 4375
+Wire Wire Line
+	4550 4350 4550 4375
+Wire Wire Line
+	4550 4375 4575 4375
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 5D4E09B2
+P 4550 4350
+AR Path="/5B8C674E/5D4E09B2" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E09B2" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E09B2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 4200 50  0001 C CNN
+F 1 "+12V" H 4550 4490 50  0000 C CNN
+F 2 "" H 4550 4350 50  0000 C CNN
+F 3 "" H 4550 4350 50  0000 C CNN
+	1    4550 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3975 4900 4375
+Text Notes 6400 2050 0    50   ~ 0
+A little less than 2ms at 510R
+Text Notes 5975 7800 0    50   ~ 10
+MAIN CONCERNS WHEN MODULE ARRIVES\n-Make sure gain is set correctly\n-Don’t want to filter out high frequencies so much that highhats don’t work\n-LED colors for different signals - pinks and purples would be nice!\n-decide on decay circuit length\n-Decide on shortest gate length (will depend on the envelope attack speed)\n
+$Comp
+L 4ms-power:-12VA #PWR?
+U 1 1 5D4E09BB
+P 4825 5675
+AR Path="/5BB43456/5D4E09BB" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E09BB" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E09BB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4825 5775 50  0001 C CNN
+F 1 "-12V" H 4825 5825 50  0000 C CNN
+F 2 "" H 4825 5675 50  0000 C CNN
+F 3 "" H 4825 5675 50  0000 C CNN
+	1    4825 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E09C8
+P 4825 5775
+AR Path="/5B8C674E/5D4E09C8" Ref="C?"  Part="1" 
+AR Path="/5D4E09C8" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E09C8" Ref="C?"  Part="1" 
+F 0 "C?" H 4625 5825 50  0000 L CNN
+F 1 "0.1uF" H 4550 5750 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 4825 5775 50  0001 C CNN
+F 3 "" H 4825 5775 50  0000 C CNN
+F 4 "Mouser" H 300 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 300 -225 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 300 -225 50  0001 C CNN "Designation"
+F 7 "C0603" H 300 -225 50  0001 C CNN "Package"
+F 8 "TEST" H 300 -225 50  0001 C CNN "Part Number"
+F 9 "2" H 300 -225 50  0001 C CNN "Points"
+F 10 "SMD" H 300 -225 50  0001 C CNN "SMD/TH"
+	1    4825 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 5D4E09CE
+P 4325 5675
+AR Path="/5B8C674E/5D4E09CE" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E09CE" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E09CE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4325 5525 50  0001 C CNN
+F 1 "+12V" H 4325 5815 50  0000 C CNN
+F 2 "" H 4325 5675 50  0000 C CNN
+F 3 "" H 4325 5675 50  0000 C CNN
+	1    4325 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E09D4
+P 4825 5875
+AR Path="/5B8C674E/5D4E09D4" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E09D4" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E09D4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4825 5625 50  0001 C CNN
+F 1 "GND" H 4700 5850 50  0000 C CNN
+F 2 "" H 4825 5875 50  0000 C CNN
+F 3 "" H 4825 5875 50  0000 C CNN
+	1    4825 5875
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E09DA
+P 4325 5875
+AR Path="/5B8C674E/5D4E09DA" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E09DA" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E09DA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4325 5625 50  0001 C CNN
+F 1 "GND" H 4200 5850 50  0000 C CNN
+F 2 "" H 4325 5875 50  0000 C CNN
+F 3 "" H 4325 5875 50  0000 C CNN
+	1    4325 5875
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E09E7
+P 4325 5775
+AR Path="/5B8C674E/5D4E09E7" Ref="C?"  Part="1" 
+AR Path="/5D4E09E7" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E09E7" Ref="C?"  Part="1" 
+F 0 "C?" H 4125 5825 50  0000 L CNN
+F 1 "0.1uF" H 4050 5750 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 4325 5775 50  0001 C CNN
+F 3 "" H 4325 5775 50  0000 C CNN
+F 4 "Mouser" H 300 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 300 -225 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 300 -225 50  0001 C CNN "Designation"
+F 7 "C0603" H 300 -225 50  0001 C CNN "Package"
+F 8 "TEST" H 300 -225 50  0001 C CNN "Part Number"
+F 9 "2" H 300 -225 50  0001 C CNN "Points"
+F 10 "SMD" H 300 -225 50  0001 C CNN "SMD/TH"
+	1    4325 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 3 1 5D4E09EF
+P 4575 5675
+AR Path="/5B8C674E/5D4E09EF" Ref="U?"  Part="3" 
+AR Path="/5D4E09EF" Ref="U?"  Part="3" 
+AR Path="/5D4A5981/5D4E09EF" Ref="U?"  Part="3" 
+F 0 "U?" V 4700 5600 50  0000 L CNN
+F 1 "072" V 4425 5500 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 4575 5675 60  0001 C CNN
+F 3 "" H 4575 5675 60  0000 C CNN
+F 4 "Mouser" H 300 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 300 -225 50  0001 C CNN "Comments"
+	3    4575 5675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-power:-12VA #PWR?
+U 1 1 5D4E09F5
+P 5650 5650
+AR Path="/5BB43456/5D4E09F5" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E09F5" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E09F5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5650 5750 50  0001 C CNN
+F 1 "-12V" H 5650 5800 50  0000 C CNN
+F 2 "" H 5650 5650 50  0000 C CNN
+F 3 "" H 5650 5650 50  0000 C CNN
+	1    5650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E0A02
+P 5650 5750
+AR Path="/5B8C674E/5D4E0A02" Ref="C?"  Part="1" 
+AR Path="/5D4E0A02" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E0A02" Ref="C?"  Part="1" 
+F 0 "C?" H 5450 5800 50  0000 L CNN
+F 1 "0.1uF" H 5375 5725 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 5650 5750 50  0001 C CNN
+F 3 "" H 5650 5750 50  0000 C CNN
+F 4 "Mouser" H 1125 -250 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 1125 -250 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 1125 -250 50  0001 C CNN "Designation"
+F 7 "C0603" H 1125 -250 50  0001 C CNN "Package"
+F 8 "TEST" H 1125 -250 50  0001 C CNN "Part Number"
+F 9 "2" H 1125 -250 50  0001 C CNN "Points"
+F 10 "SMD" H 1125 -250 50  0001 C CNN "SMD/TH"
+	1    5650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 5D4E0A08
+P 5150 5650
+AR Path="/5B8C674E/5D4E0A08" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0A08" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0A08" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5150 5500 50  0001 C CNN
+F 1 "+12V" H 5150 5790 50  0000 C CNN
+F 2 "" H 5150 5650 50  0000 C CNN
+F 3 "" H 5150 5650 50  0000 C CNN
+	1    5150 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0A0E
+P 5650 5850
+AR Path="/5B8C674E/5D4E0A0E" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0A0E" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0A0E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5650 5600 50  0001 C CNN
+F 1 "GND" H 5525 5825 50  0000 C CNN
+F 2 "" H 5650 5850 50  0000 C CNN
+F 3 "" H 5650 5850 50  0000 C CNN
+	1    5650 5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0A14
+P 5150 5850
+AR Path="/5B8C674E/5D4E0A14" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0A14" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0A14" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5150 5600 50  0001 C CNN
+F 1 "GND" H 5025 5825 50  0000 C CNN
+F 2 "" H 5150 5850 50  0000 C CNN
+F 3 "" H 5150 5850 50  0000 C CNN
+	1    5150 5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E0A21
+P 5150 5750
+AR Path="/5B8C674E/5D4E0A21" Ref="C?"  Part="1" 
+AR Path="/5D4E0A21" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E0A21" Ref="C?"  Part="1" 
+F 0 "C?" H 4950 5800 50  0000 L CNN
+F 1 "0.1uF" H 4875 5725 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 5150 5750 50  0001 C CNN
+F 3 "" H 5150 5750 50  0000 C CNN
+F 4 "Mouser" H 1125 -250 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 1125 -250 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 1125 -250 50  0001 C CNN "Designation"
+F 7 "C0603" H 1125 -250 50  0001 C CNN "Package"
+F 8 "TEST" H 1125 -250 50  0001 C CNN "Part Number"
+F 9 "2" H 1125 -250 50  0001 C CNN "Points"
+F 10 "SMD" H 1125 -250 50  0001 C CNN "SMD/TH"
+	1    5150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 3 1 5D4E0A29
+P 5400 5650
+AR Path="/5B8C674E/5D4E0A29" Ref="U?"  Part="3" 
+AR Path="/5D4E0A29" Ref="U?"  Part="3" 
+AR Path="/5D4A5981/5D4E0A29" Ref="U?"  Part="3" 
+F 0 "U?" V 5525 5575 50  0000 L CNN
+F 1 "072" V 5250 5475 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 5400 5650 60  0001 C CNN
+F 3 "" H 5400 5650 60  0000 C CNN
+F 4 "Mouser" H 1125 -250 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 1125 -250 50  0001 C CNN "Comments"
+	3    5400 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:CP1_Small C?
+U 1 1 5D4E0A34
+P 3050 7175
+AR Path="/5BB43456/5D4E0A34" Ref="C?"  Part="1" 
+AR Path="/5D4E0A34" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E0A34" Ref="C?"  Part="1" 
+F 0 "C?" H 3125 7150 50  0000 L CNN
+F 1 "47uF" H 3100 7225 50  0000 L CNN
+F 2 "4ms_Capacitor:CP_Elec_5x5.3" H 3050 7175 50  0001 C CNN
+F 3 "" H 3050 7175 50  0000 C CNN
+F 4 "Mouser" H 375 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 375 -225 50  0001 C CNN "Comments"
+F 6 "TEST" H 375 -225 50  0001 C CNN "Part Number"
+F 7 "2" H 375 -225 50  0001 C CNN "Points"
+F 8 "SMD" H 375 -225 50  0001 C CNN "SMD/TH"
+	1    3050 7175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6225 3975 6750 3975
+$Comp
+L 4ms-passives:D D?
+U 1 1 5D4E0A40
+P 7800 4025
+F 0 "D?" V 7825 4150 50  0000 C CNN
+F 1 "SD103" V 7900 4175 50  0000 C CNN
+F 2 "4ms_Diode:D_SOD-323F" H 7800 4025 50  0001 C CNN
+F 3 "" H 7800 4025 50  0001 C CNN
+F 4 "Mouser" H 1500 -250 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 1500 -250 50  0001 C CNN "Comments"
+F 6 "SOD123" H 1500 -250 50  0001 C CNN "Package"
+F 7 "2" H 1500 -250 50  0001 C CNN "Points"
+F 8 "SMD" H 1500 -250 50  0001 C CNN "SMD/TH"
+	1    7800 4025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7650 4175 7725 4175
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0A47
+P 8075 4375
+AR Path="/5B8C674E/5D4E0A47" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0A47" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0A47" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8075 4125 50  0001 C CNN
+F 1 "GND" H 8200 4350 50  0001 C CNN
+F 2 "" H 8075 4375 50  0000 C CNN
+F 3 "" H 8075 4375 50  0000 C CNN
+	1    8075 4375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0A52
+P 7900 4350
+F 0 "R?" V 8000 4300 50  0000 C CNN
+F 1 "2k" V 8075 4275 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 7900 4350 60  0001 C CNN
+F 3 "" H 7900 4350 60  0000 C CNN
+F 4 "Mouser" H 3550 -425 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 3550 -425 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 3550 -425 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 3550 -425 50  0001 C CNN "Part Number"
+F 8 "C0603" H 3550 -425 50  0001 C CNN "Package"
+	1    7900 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0A5D
+P 7550 4350
+F 0 "R?" V 7650 4300 50  0000 C CNN
+F 1 "100k" V 7725 4275 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 7550 4350 60  0001 C CNN
+F 3 "" H 7550 4350 60  0000 C CNN
+F 4 "Mouser" H 3200 -425 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 3200 -425 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 3200 -425 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 3200 -425 50  0001 C CNN "Part Number"
+F 8 "C0603" H 3200 -425 50  0001 C CNN "Package"
+	1    7550 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 4350 8075 4350
+Wire Wire Line
+	8075 4350 8075 4375
+Wire Wire Line
+	7375 4325 7375 4350
+Wire Wire Line
+	7375 4350 7400 4350
+$Comp
+L 4ms-power:+12V #PWR?
+U 1 1 5D4E0A67
+P 7375 4325
+AR Path="/5B8C674E/5D4E0A67" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0A67" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0A67" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7375 4175 50  0001 C CNN
+F 1 "+12V" H 7375 4465 50  0000 C CNN
+F 2 "" H 7375 4325 50  0000 C CNN
+F 3 "" H 7375 4325 50  0000 C CNN
+	1    7375 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4350 7725 4350
+Wire Wire Line
+	7725 4175 7725 4350
+Connection ~ 7725 4175
+Wire Wire Line
+	7725 4175 7800 4175
+Connection ~ 7725 4350
+Wire Wire Line
+	7725 4350 7750 4350
+Wire Wire Line
+	2650 4075 2650 4225
+Wire Wire Line
+	2650 4225 3025 4225
+Connection ~ 2650 4225
+Wire Wire Line
+	2650 4225 2650 4375
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0A77
+P 1650 2825
+AR Path="/5B8C674E/5D4E0A77" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0A77" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0A77" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1650 2575 50  0001 C CNN
+F 1 "GND" H 1650 2675 50  0000 C CNN
+F 2 "" H 1650 2825 50  0000 C CNN
+F 3 "" H 1650 2825 50  0000 C CNN
+	1    1650 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-mech:JACK-MONO INL?
+U 1 1 5D4E0A80
+P 675 2000
+AR Path="/5B8C674E/5D4E0A80" Ref="INL?"  Part="1" 
+AR Path="/5D4E0A80" Ref="INL?"  Part="1" 
+AR Path="/5D4A5981/5D4E0A80" Ref="INL?"  Part="1" 
+F 0 "INL?" H 881 2387 60  0000 C CNN
+F 1 "JACK-MONO" H 881 2281 60  0000 C CNN
+F 2 "4ms_Jack:EighthInch_PJ398SM" H 675 2000 60  0001 C CNN
+F 3 "" H 675 2000 60  0000 C CNN
+F 4 "Mouser" H -875 -675 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -875 -675 50  0001 C CNN "Comments"
+F 6 "2" H -875 -675 50  0001 C CNN "Points"
+	1    675  2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-headers:HEADER1x3 H?
+U 1 1 5D4E0A86
+P 10675 3850
+F 0 "H?" H 10900 3850 60  0000 L CNN
+F 1 "Env Outs" V 11075 3400 60  0000 L CNN
+F 2 "4ms_Connector:Pins_1x03_2.54mm_TH" H 10675 3850 60  0001 C CNN
+F 3 "" H 10675 3850 60  0000 C CNN
+	1    10675 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0A91
+P 8875 3250
+AR Path="/5B8C674E/5D4E0A91" Ref="R?"  Part="1" 
+AR Path="/5D4E0A91" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E0A91" Ref="R?"  Part="1" 
+F 0 "R?" V 8975 3300 50  0000 C CNN
+F 1 "1k" V 8975 3175 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 8875 3250 60  0001 C CNN
+F 3 "" H 8875 3250 60  0000 C CNN
+F 4 "Mouser" H 675 -600 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 675 -600 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 675 -600 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 675 -600 50  0001 C CNN "Part Number"
+F 8 "C0603" H 675 -600 50  0001 C CNN "Package"
+	1    8875 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8450 3475 8450 3250
+Wire Wire Line
+	8450 3250 8725 3250
+Wire Wire Line
+	9025 3250 10675 3250
+Wire Wire Line
+	10675 3250 10675 4000
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0AA0
+P 9725 5400
+AR Path="/5B8C674E/5D4E0AA0" Ref="R?"  Part="1" 
+AR Path="/5D4E0AA0" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E0AA0" Ref="R?"  Part="1" 
+F 0 "R?" V 9625 5475 50  0000 C CNN
+F 1 "1k" V 9625 5325 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 9725 5400 60  0001 C CNN
+F 3 "" H 9725 5400 60  0000 C CNN
+F 4 "Mouser" H 700 525 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 700 525 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 700 525 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 700 525 50  0001 C CNN "Part Number"
+F 8 "C0603" H 700 525 50  0001 C CNN "Package"
+	1    9725 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 5400 9575 5400
+Wire Wire Line
+	9875 5400 10825 5400
+Wire Wire Line
+	10825 5400 10825 4325
+Wire Wire Line
+	10825 4325 10675 4325
+Wire Wire Line
+	10675 4325 10675 4200
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0AAB
+P 10575 4150
+AR Path="/5B8C674E/5D4E0AAB" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0AAB" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0AAB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10575 3900 50  0001 C CNN
+F 1 "GND" H 10575 4000 50  0001 C CNN
+F 2 "" H 10575 4150 50  0000 C CNN
+F 3 "" H 10575 4150 50  0000 C CNN
+	1    10575 4150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10575 4100 10575 4150
+Wire Wire Line
+	10575 4100 10675 4100
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0AB8
+P 4725 2650
+AR Path="/5B8C674E/5D4E0AB8" Ref="R?"  Part="1" 
+AR Path="/5D4E0AB8" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E0AB8" Ref="R?"  Part="1" 
+F 0 "R?" V 4575 2575 50  0000 C CNN
+F 1 "1k - this value may be wrong on Proto" V 4650 2575 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 4725 2650 60  0001 C CNN
+F 3 "" H 4725 2650 60  0000 C CNN
+F 4 "Mouser" H -875 850 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -875 850 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -875 850 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -875 850 50  0001 C CNN "Part Number"
+F 8 "C0603" H -875 850 50  0001 C CNN "Package"
+	1    4725 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4875 2650 5025 2650
+Wire Wire Line
+	5025 2650 5025 2825
+Wire Wire Line
+	5025 2825 4875 2825
+Connection ~ 5025 2650
+Wire Wire Line
+	4575 2650 2325 2650
+Wire Wire Line
+	2325 2650 2325 2825
+$Comp
+L 4ms-headers:HEADER1x3 H?
+U 1 1 5D4E0AC4
+P 1400 2825
+F 0 "H?" V 1700 2250 60  0000 L CNN
+F 1 "1/4in Input" V 1825 2325 60  0000 L CNN
+F 2 "4ms_Connector:Pins_1x03_2.54mm_TH" H 1400 2825 60  0001 C CNN
+F 3 "" H 1400 2825 60  0000 C CNN
+	1    1400 2825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1750 2825 2325 2825
+Wire Wire Line
+	4575 2825 3025 2825
+Wire Wire Line
+	3025 2825 3025 3125
+Connection ~ 3025 3125
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0ACE
+P 2975 1950
+AR Path="/5B8C674E/5D4E0ACE" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0ACE" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0ACE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2975 1700 50  0001 C CNN
+F 1 "GND" H 2975 1800 50  0000 C CNN
+F 2 "" H 2975 1950 50  0000 C CNN
+F 3 "" H 2975 1950 50  0000 C CNN
+	1    2975 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1400 2550 1400
+Wire Wire Line
+	5025 1500 5025 1850
+Wire Wire Line
+	925  2825 1550 2825
+Wire Wire Line
+	925  2000 925  2825
+Connection ~ 4575 1425
+Wire Wire Line
+	4575 1425 4575 1850
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0ADF
+P 4775 2000
+AR Path="/5B8C674E/5D4E0ADF" Ref="R?"  Part="1" 
+AR Path="/5D4E0ADF" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E0ADF" Ref="R?"  Part="1" 
+F 0 "R?" H 4875 2000 50  0000 C CNN
+F 1 "100K" H 4925 2075 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 4775 2000 60  0001 C CNN
+F 3 "" H 4775 2000 60  0000 C CNN
+F 4 "Mouser" H -825 200 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -825 200 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -825 200 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -825 200 50  0001 C CNN "Part Number"
+F 8 "C0603" H -825 200 50  0001 C CNN "Package"
+	1    4775 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5D4E0AEC
+P 4675 1850
+AR Path="/5B8C674E/5D4E0AEC" Ref="C?"  Part="1" 
+AR Path="/5D4E0AEC" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5D4E0AEC" Ref="C?"  Part="1" 
+F 0 "C?" V 4850 1800 50  0000 L CNN
+F 1 "1uF" V 4775 1775 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 4675 1850 50  0001 C CNN
+F 3 "" H 4675 1850 50  0000 C CNN
+F 4 "Mouser" H -475 50  50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -475 50  50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H -475 50  50  0001 C CNN "Designation"
+F 7 "C0603" H -475 50  50  0001 C CNN "Package"
+F 8 "TEST" H -475 50  50  0001 C CNN "Part Number"
+F 9 "2" H -475 50  50  0001 C CNN "Points"
+F 10 "SMD" H -475 50  50  0001 C CNN "SMD/TH"
+	1    4675 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0AF2
+P 4775 2150
+AR Path="/5B8C674E/5D4E0AF2" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0AF2" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0AF2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4775 1900 50  0001 C CNN
+F 1 "GND" H 4775 2000 50  0000 C CNN
+F 2 "" H 4775 2150 50  0000 C CNN
+F 3 "" H 4775 2150 50  0000 C CNN
+	1    4775 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 1850 5025 1850
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0AFE
+P 4425 1275
+AR Path="/5B8C674E/5D4E0AFE" Ref="R?"  Part="1" 
+AR Path="/5D4E0AFE" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E0AFE" Ref="R?"  Part="1" 
+F 0 "R?" H 4600 1200 50  0000 C CNN
+F 1 "100k" V 4325 1300 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 4425 1275 60  0001 C CNN
+F 3 "" H 4425 1275 60  0000 C CNN
+F 4 "Mouser" H 300 -825 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 300 -825 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 300 -825 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 300 -825 50  0001 C CNN "Part Number"
+F 8 "C0603" H 300 -825 50  0001 C CNN "Package"
+	1    4425 1275
+	0    -1   1    0   
+$EndComp
+Connection ~ 5025 1850
+$Comp
+L 4ms-passives:R R?
+U 1 1 5D4E0B0A
+P 925 2975
+AR Path="/5B8C674E/5D4E0B0A" Ref="R?"  Part="1" 
+AR Path="/5D4E0B0A" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5D4E0B0A" Ref="R?"  Part="1" 
+F 0 "R?" V 1075 2975 50  0000 C CNN
+F 1 "5k - this works" V 1000 2975 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 925 2975 60  0001 C CNN
+F 3 "" H 925 2975 60  0000 C CNN
+F 4 "Mouser" H -1525 300 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -1525 300 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H -1525 300 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H -1525 300 50  0001 C CNN "Part Number"
+F 8 "C0603" H -1525 300 50  0001 C CNN "Package"
+	1    925  2975
+	1    0    0    1   
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5D4E0B10
+P 925 3125
+AR Path="/5B8C674E/5D4E0B10" Ref="#PWR?"  Part="1" 
+AR Path="/5D4E0B10" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A5981/5D4E0B10" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 925 2875 50  0001 C CNN
+F 1 "GND" H 925 2975 50  0000 C CNN
+F 2 "" H 925 3125 50  0000 C CNN
+F 3 "" H 925 3125 50  0000 C CNN
+	1    925  3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3575 1425 3575 1850
+Wire Wire Line
+	2725 6350 3325 6350
+Wire Wire Line
+	6500 2500 6500 2650
+Wire Wire Line
+	6275 2650 6500 2650
+Wire Wire Line
+	8925 4600 8925 4975
+Wire Wire Line
+	9550 4250 9550 5400
+Wire Wire Line
+	8450 3475 8450 3800
+Wire Wire Line
+	2725 7075 3350 7075
+Wire Wire Line
+	7650 3875 7850 3875
+Wire Wire Line
+	5025 1850 5025 2650
+Wire Wire Line
+	4575 1125 4575 1425
+$EndSCHEMATC
