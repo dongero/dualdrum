@@ -3916,4 +3916,6 @@ Wire Wire Line
 	13150 1850 13825 1850
 Wire Wire Line
 	15525 1525 16250 1525
+Text Notes 6675 1950 0    100  ~ 20
+que hacer\n-usar LMC7660\n-usar lm13700 filtering circuit\n-usar lm13700 en VCA config\n\nel dd necesita usar +/-9V\nhace layout por la CMOS chips con dos supply circuitos\n
 $EndSCHEMATC
