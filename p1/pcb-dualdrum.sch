@@ -1331,7 +1331,7 @@ Wire Wire Line
 	2675 5850 2850 5850
 Text Notes 1175 6175 0    150  Italic 30
 INPUT CLIP
-Text Notes 4825 8100 0    150  Italic 30
+Text Notes 5600 7550 0    150  Italic 30
 ENVELOPES
 Text Notes 4250 7425 0    50   ~ 0
 -results in -20mV 
@@ -3718,34 +3718,34 @@ $EndComp
 $Comp
 L Amplifier_Operational:LM13700 U?
 U 5 1 5D69FBE2
-P 15500 14975
-F 0 "U?" H 15475 15150 50  0000 C CNN
-F 1 "LM13700" H 15400 14975 50  0000 C CNN
-F 2 "" H 15200 15000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 15200 15000 50  0001 C CNN
-	5    15500 14975
+P 15500 14950
+F 0 "U?" H 15475 15125 50  0000 C CNN
+F 1 "LM13700" H 15400 14950 50  0000 C CNN
+F 2 "" H 15200 14975 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 15200 14975 50  0001 C CNN
+	5    15500 14950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:-9V #PWR?
 U 1 1 5D6A25E7
-P 15400 15275
-F 0 "#PWR?" H 15400 15150 50  0001 C CNN
-F 1 "-9V" H 15415 15448 50  0000 C CNN
-F 2 "" H 15400 15275 50  0001 C CNN
-F 3 "" H 15400 15275 50  0001 C CNN
-	1    15400 15275
+P 15400 15250
+F 0 "#PWR?" H 15400 15125 50  0001 C CNN
+F 1 "-9V" H 15415 15423 50  0000 C CNN
+F 2 "" H 15400 15250 50  0001 C CNN
+F 3 "" H 15400 15250 50  0001 C CNN
+	1    15400 15250
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+9V #PWR?
 U 1 1 5D6A209D
-P 15400 14675
-F 0 "#PWR?" H 15400 14525 50  0001 C CNN
-F 1 "+9V" H 15415 14848 50  0000 C CNN
-F 2 "" H 15400 14675 50  0001 C CNN
-F 3 "" H 15400 14675 50  0001 C CNN
-	1    15400 14675
+P 15400 14650
+F 0 "#PWR?" H 15400 14500 50  0001 C CNN
+F 1 "+9V" H 15415 14823 50  0000 C CNN
+F 2 "" H 15400 14650 50  0001 C CNN
+F 3 "" H 15400 14650 50  0001 C CNN
+	1    15400 14650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4097,7 +4097,7 @@ Wire Wire Line
 Connection ~ 5125 4525
 Wire Wire Line
 	6775 4325 6775 4525
-Text Notes 6200 3900 0    150  Italic 30
+Text Notes 2625 4800 0    150  Italic 30
 ONE-SHOT/GATE
 Connection ~ 4975 4225
 Connection ~ 5925 4325
@@ -4907,4 +4907,421 @@ Wire Wire Line
 	10475 2225 9650 2225
 Wire Wire Line
 	9650 2225 9650 4550
+Text Notes 9275 5075 0    50   Italic 10
+what should i do about this pot?\nis it enough gain to boost signal?\ncan i use a fixed resistor?\ncan i use a pot on the cv input to attenuate?
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5E0D5598
+P 12475 1675
+AR Path="/5B8C674E/5E0D5598" Ref="C?"  Part="1" 
+AR Path="/5E0D5598" Ref="C?"  Part="1" 
+AR Path="/5D4A5981/5E0D5598" Ref="C?"  Part="1" 
+F 0 "C?" H 12550 1675 50  0000 L CNN
+F 1 "200pF" H 12500 1600 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 12475 1675 50  0001 C CNN
+F 3 "" H 12475 1675 50  0000 C CNN
+F 4 "Mouser" H 7325 -125 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 7325 -125 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 7325 -125 50  0001 C CNN "Designation"
+F 7 "C0603" H 7325 -125 50  0001 C CNN "Package"
+F 8 "TEST" H 7325 -125 50  0001 C CNN "Part Number"
+F 9 "2" H 7325 -125 50  0001 C CNN "Points"
+F 10 "SMD" H 7325 -125 50  0001 C CNN "SMD/TH"
+	1    12475 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM13700 U?
+U 4 1 5E0D55A2
+P 14225 1675
+F 0 "U?" H 13975 1800 50  0000 C CNN
+F 1 "LM13700" H 14025 1875 50  0000 C CNN
+F 2 "" H 13925 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 13925 1700 50  0001 C CNN
+	4    14225 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM13700 U?
+U 3 1 5E0D55AC
+P 13475 1675
+F 0 "U?" H 13525 1525 50  0000 C CNN
+F 1 "LM13700" H 13475 1450 50  0000 C CNN
+F 2 "" H 13175 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 13175 1700 50  0001 C CNN
+	3    13475 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM13700 U?
+U 2 1 5E0D55B6
+P 12850 1575
+F 0 "U?" H 12600 1700 50  0000 C CNN
+F 1 "LM13700" H 12675 1775 50  0000 C CNN
+F 2 "" H 12550 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 12550 1600 50  0001 C CNN
+	2    12850 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM13700 U?
+U 1 1 5E0D55C0
+P 11950 1575
+F 0 "U?" H 11950 1750 50  0000 C CNN
+F 1 "LM13700" H 11950 1350 50  0000 C CNN
+F 2 "" H 11650 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 11650 1600 50  0001 C CNN
+	1    11950 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5E0D55DC
+P 11500 1475
+F 0 "#PWR?" H 11500 1225 50  0001 C CNN
+F 1 "GND" H 11375 1425 50  0000 C CNN
+F 2 "" H 11500 1475 50  0001 C CNN
+F 3 "" H 11500 1475 50  0001 C CNN
+	1    11500 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:R R?
+U 1 1 5E0D561E
+P 12250 1825
+AR Path="/5B8C674E/5E0D561E" Ref="R?"  Part="1" 
+AR Path="/5E0D561E" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5E0D561E" Ref="R?"  Part="1" 
+F 0 "R?" V 12175 1800 50  0000 C CNN
+F 1 "30k" V 12250 1825 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 12250 1825 60  0001 C CNN
+F 3 "" H 12250 1825 60  0000 C CNN
+F 4 "Mouser" H 3425 -750 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 3425 -750 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 3425 -750 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 3425 -750 50  0001 C CNN "Part Number"
+F 8 "C0603" H 3425 -750 50  0001 C CNN "Package"
+	1    12250 1825
+	1    0    0    1   
+$EndComp
+$Comp
+L 4ms-mech:POT Freq?
+U 1 1 5E0D566B
+P 12250 2675
+AR Path="/5B8C674E/5E0D566B" Ref="Freq?"  Part="1" 
+AR Path="/5E0D566B" Ref="Pitch"  Part="1" 
+AR Path="/5D4A5981/5E0D566B" Ref="Freq?"  Part="1" 
+F 0 "Pitch" V 12150 2675 50  0000 C CNN
+F 1 "100k" V 12250 2675 50  0000 C CNN
+F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 12250 2675 60  0001 C CNN
+F 3 "" H 12250 2675 60  0000 C CNN
+F 4 "Mouser" H 7100 575 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 7100 575 50  0001 C CNN "Comments"
+	1    12250 2675
+	0    1    -1   0   
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5E0D5675
+P 12700 2675
+F 0 "#PWR?" H 12700 2425 50  0001 C CNN
+F 1 "GND" H 12825 2575 50  0000 C CNN
+F 2 "" H 12700 2675 50  0001 C CNN
+F 3 "" H 12700 2675 50  0001 C CNN
+	1    12700 2675
+	1    0    0    -1  
+$EndComp
+NoConn ~ 11650 1575
+Wire Wire Line
+	11500 1475 11650 1475
+$Comp
+L Amplifier_Operational:LM13700 U?
+U 5 1 5E16455F
+P 15950 14950
+F 0 "U?" H 15950 15125 50  0000 C CNN
+F 1 "LM13700" H 15850 14925 50  0000 C CNN
+F 2 "" H 15650 14975 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 15650 14975 50  0001 C CNN
+	5    15950 14950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR?
+U 1 1 5E1692E8
+P 15850 14650
+F 0 "#PWR?" H 15850 14500 50  0001 C CNN
+F 1 "+9V" H 15865 14823 50  0000 C CNN
+F 2 "" H 15850 14650 50  0001 C CNN
+F 3 "" H 15850 14650 50  0001 C CNN
+	1    15850 14650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-9V #PWR?
+U 1 1 5E1695CC
+P 15850 15250
+F 0 "#PWR?" H 15850 15125 50  0001 C CNN
+F 1 "-9V" H 15865 15423 50  0000 C CNN
+F 2 "" H 15850 15250 50  0001 C CNN
+F 3 "" H 15850 15250 50  0001 C CNN
+	1    15850 15250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12250 1575 12475 1575
+Wire Wire Line
+	12475 1575 12550 1575
+Connection ~ 12475 1575
+$Comp
+L power:+9V #PWR?
+U 1 1 5E1FE472
+P 12100 2675
+F 0 "#PWR?" H 12100 2525 50  0001 C CNN
+F 1 "+9V" H 12000 2775 50  0000 C CNN
+F 2 "" H 12100 2675 50  0001 C CNN
+F 3 "" H 12100 2675 50  0001 C CNN
+	1    12100 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5E1FF0B2
+P 12475 1775
+F 0 "#PWR?" H 12475 1525 50  0001 C CNN
+F 1 "GND" H 12350 1725 50  0000 C CNN
+F 2 "" H 12475 1775 50  0001 C CNN
+F 3 "" H 12475 1775 50  0001 C CNN
+	1    12475 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12950 1575 12950 1675
+$Comp
+L 4ms-passives:R R?
+U 1 1 5E21E35C
+P 12950 1850
+AR Path="/5B8C674E/5E21E35C" Ref="R?"  Part="1" 
+AR Path="/5E21E35C" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5E21E35C" Ref="R?"  Part="1" 
+F 0 "R?" V 12875 1825 50  0000 C CNN
+F 1 "10k" V 12950 1850 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 12950 1850 60  0001 C CNN
+F 3 "" H 12950 1850 60  0000 C CNN
+F 4 "Mouser" H 4125 -725 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 4125 -725 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 4125 -725 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 4125 -725 50  0001 C CNN "Part Number"
+F 8 "C0603" H 4125 -725 50  0001 C CNN "Package"
+	1    12950 1850
+	1    0    0    1   
+$EndComp
+$Comp
+L power:-9V #PWR?
+U 1 1 5E21E94A
+P 12950 2000
+F 0 "#PWR?" H 12950 1875 50  0001 C CNN
+F 1 "-9V" H 13050 2050 50  0000 C CNN
+F 2 "" H 12950 2000 50  0001 C CNN
+F 3 "" H 12950 2000 50  0001 C CNN
+	1    12950 2000
+	-1   0    0    1   
+$EndComp
+NoConn ~ 13175 1675
+Wire Wire Line
+	13175 1775 13175 2050
+Wire Wire Line
+	13175 2375 11650 2375
+Wire Wire Line
+	11650 2375 11650 1675
+$Comp
+L 4ms-mech:POT Pitch?
+U 1 1 5E258D21
+P 13975 1025
+AR Path="/5B8C674E/5E258D21" Ref="Pitch?"  Part="1" 
+AR Path="/5E258D21" Ref="Wave1"  Part="1" 
+AR Path="/5D4A5981/5E258D21" Ref="Pitch?"  Part="1" 
+F 0 "Wave1" V 13875 1025 50  0000 C CNN
+F 1 "100k" V 13975 1025 50  0000 C CNN
+F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 13975 1025 60  0001 C CNN
+F 3 "" H 13975 1025 60  0000 C CNN
+F 4 "Mouser" H 8825 -1075 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 8825 -1075 50  0001 C CNN "Comments"
+	1    13975 1025
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	12950 1700 12950 1675
+Connection ~ 12950 1675
+$Comp
+L 4ms-passives:R R?
+U 1 1 5E29487F
+P 14325 1925
+AR Path="/5B8C674E/5E29487F" Ref="R?"  Part="1" 
+AR Path="/5E29487F" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5E29487F" Ref="R?"  Part="1" 
+F 0 "R?" V 14250 1900 50  0000 C CNN
+F 1 "10k" V 14325 1925 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 14325 1925 60  0001 C CNN
+F 3 "" H 14325 1925 60  0000 C CNN
+F 4 "Mouser" H 5500 -650 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 5500 -650 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 5500 -650 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 5500 -650 50  0001 C CNN "Part Number"
+F 8 "C0603" H 5500 -650 50  0001 C CNN "Package"
+	1    14325 1925
+	1    0    0    1   
+$EndComp
+$Comp
+L power:-9V #PWR?
+U 1 1 5E294DD1
+P 14325 2075
+F 0 "#PWR?" H 14325 1950 50  0001 C CNN
+F 1 "-9V" H 14425 2125 50  0000 C CNN
+F 2 "" H 14325 2075 50  0001 C CNN
+F 3 "" H 14325 2075 50  0001 C CNN
+	1    14325 2075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14325 1775 14325 1025
+Wire Wire Line
+	14325 1025 14125 1025
+Connection ~ 14325 1775
+$Comp
+L 4ms-passives:R R?
+U 1 1 5E2B319A
+P 13925 2200
+AR Path="/5B8C674E/5E2B319A" Ref="R?"  Part="1" 
+AR Path="/5E2B319A" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5E2B319A" Ref="R?"  Part="1" 
+F 0 "R?" V 13850 2175 50  0000 C CNN
+F 1 "5k1" V 13925 2200 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 13925 2200 60  0001 C CNN
+F 3 "" H 13925 2200 60  0000 C CNN
+F 4 "Mouser" H 5100 -375 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 5100 -375 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 5100 -375 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 5100 -375 50  0001 C CNN "Part Number"
+F 8 "C0603" H 5100 -375 50  0001 C CNN "Package"
+	1    13925 2200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	13775 1675 13925 1675
+Wire Wire Line
+	13925 1675 13925 2050
+Connection ~ 13925 1675
+Wire Wire Line
+	13925 2050 13175 2050
+Connection ~ 13925 2050
+Connection ~ 13175 2050
+Wire Wire Line
+	13175 2050 13175 2375
+$Comp
+L 4ms-passives:R R?
+U 1 1 5E30EE76
+P 13775 1450
+AR Path="/5B8C674E/5E30EE76" Ref="R?"  Part="1" 
+AR Path="/5E30EE76" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5E30EE76" Ref="R?"  Part="1" 
+F 0 "R?" V 13700 1425 50  0000 C CNN
+F 1 "51k" V 13775 1450 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 13775 1450 60  0001 C CNN
+F 3 "" H 13775 1450 60  0000 C CNN
+F 4 "Mouser" H 4950 -1125 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 4950 -1125 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 4950 -1125 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 4950 -1125 50  0001 C CNN "Part Number"
+F 8 "C0603" H 4950 -1125 50  0001 C CNN "Package"
+	1    13775 1450
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+9V #PWR?
+U 1 1 5E30F306
+P 13775 1300
+F 0 "#PWR?" H 13775 1150 50  0001 C CNN
+F 1 "+9V" H 13675 1400 50  0000 C CNN
+F 2 "" H 13775 1300 50  0001 C CNN
+F 3 "" H 13775 1300 50  0001 C CNN
+	1    13775 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13775 1775 13775 1675
+Connection ~ 13775 1675
+Wire Wire Line
+	13775 1675 13775 1600
+Wire Wire Line
+	10575 1825 10575 825 
+Wire Wire Line
+	10575 825  13975 825 
+Wire Wire Line
+	13975 825  13975 875 
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5E3BE217
+P 13925 2350
+F 0 "#PWR?" H 13925 2100 50  0001 C CNN
+F 1 "GND" H 14050 2250 50  0000 C CNN
+F 2 "" H 13925 2350 50  0001 C CNN
+F 3 "" H 13925 2350 50  0001 C CNN
+	1    13925 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12950 1575 13175 1575
+Wire Wire Line
+	12950 1575 12950 1025
+Wire Wire Line
+	12950 1025 13825 1025
+Connection ~ 12950 1575
+Text Notes 12325 1175 0    150  Italic 30
+VCO
+Text Notes 7000 1025 0    150  Italic 30
+AUX GAIN
+Wire Wire Line
+	12250 1975 12250 2525
+$Comp
+L 4ms-mech:POT Pitch?
+U 1 1 5E41A077
+P 12550 2675
+AR Path="/5B8C674E/5E41A077" Ref="Pitch?"  Part="1" 
+AR Path="/5E41A077" Ref="Slide1"  Part="1" 
+AR Path="/5D4A5981/5E41A077" Ref="Pitch?"  Part="1" 
+F 0 "Slide1" V 12450 2675 50  0000 C CNN
+F 1 "100k" V 12550 2675 50  0000 C CNN
+F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 12550 2675 60  0001 C CNN
+F 3 "" H 12550 2675 60  0000 C CNN
+F 4 "Mouser" H 7400 575 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 7400 575 50  0001 C CNN "Comments"
+	1    12550 2675
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	12550 2825 12550 6200
+Wire Wire Line
+	12550 6200 11150 6200
+Connection ~ 11150 6200
+$Comp
+L 4ms-passives:R R?
+U 1 1 5E4DB322
+P 12725 3550
+AR Path="/5B8C674E/5E4DB322" Ref="R?"  Part="1" 
+AR Path="/5E4DB322" Ref="R?"  Part="1" 
+AR Path="/5D4A5981/5E4DB322" Ref="R?"  Part="1" 
+F 0 "R?" V 12650 3525 50  0000 C CNN
+F 1 "30k" V 12725 3550 50  0000 C CNN
+F 2 "4ms_Resistor:R_0603" H 12725 3550 60  0001 C CNN
+F 3 "" H 12725 3550 60  0000 C CNN
+F 4 "Mouser" H 3900 975 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 3900 975 50  0001 C CNN "Comments"
+F 6 "1%,1/10W,0603" H 3900 975 50  0001 C CNN "Designation"
+F 7 "RC0603FR-07XXXL" H 3900 975 50  0001 C CNN "Part Number"
+F 8 "C0603" H 3900 975 50  0001 C CNN "Package"
+	1    12725 3550
+	1    0    0    1   
+$EndComp
+Text Notes 12650 3250 0    50   Italic 10
+this slide thing seems a little silly\nmaybe i should look more into it\nor try it out....
 $EndSCHEMATC
