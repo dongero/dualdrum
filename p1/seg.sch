@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:pcb-dualdrum-cache
 EELAYER 29 0
 EELAYER END
