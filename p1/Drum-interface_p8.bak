@@ -3100,4 +3100,20 @@ Wire Wire Line
 	7750 3950 7950 3950
 Wire Wire Line
 	5125 1925 5125 2725
+$Comp
+L 4ms-mech:DPDT-shielded-sep SW?
+U 1 1 5DEE278C
+P 5225 3200
+F 0 "SW?" V 5300 3525 50  0000 R CNN
+F 1 "SPST" V 5375 3525 50  0000 R CNN
+F 2 "4ms_Switch:Slide_Switch_Runrun_SS22D06" H 5225 3200 50  0001 C CNN
+F 3 "" H 5225 3200 50  0001 C CNN
+F 4 "Mouser" H -325 -225 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H -325 -225 50  0001 C CNN "Comments"
+	1    5225 3200
+	1    0    0    1   
+$EndComp
+Connection ~ 5425 3300
+Connection ~ 5025 3200
+Connection ~ 5425 3100
 $EndSCHEMATC
