@@ -242,10 +242,10 @@ $EndComp
 NoConn ~ 6625 850 
 $Comp
 L 4ms-ic:NJM2068-separate-power U?
-U 1 1 5D96046E
+U 2 1 5D96046E
 P 4975 1825
 AR Path="/5B8C674E/5D96046E" Ref="U?"  Part="2" 
-AR Path="/5D96046E" Ref="U1"  Part="1" 
+AR Path="/5D96046E" Ref="U1"  Part="2" 
 AR Path="/5D4A5981/5D96046E" Ref="U?"  Part="1" 
 F 0 "U1" H 5025 1925 50  0000 L CNN
 F 1 "082" H 5025 1725 50  0000 L CNN
@@ -253,7 +253,7 @@ F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 4975 1825 60  0001 C CNN
 F 3 "" H 4975 1825 60  0000 C CNN
 F 4 "Mouser" H 1225 -2600 50  0001 C CNN "Manufacturer"
 F 5 "Substitution OK" H 1225 -2600 50  0001 C CNN "Comments"
-	1    4975 1825
+	2    4975 1825
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -276,10 +276,10 @@ Wire Wire Line
 	5275 1825 5275 2125
 $Comp
 L 4ms-ic:NJM2068-separate-power U?
-U 2 1 5DD0F3DF
+U 1 1 5DD0F3DF
 P 7100 1850
 AR Path="/5B8C674E/5DD0F3DF" Ref="U?"  Part="2" 
-AR Path="/5DD0F3DF" Ref="U1"  Part="2" 
+AR Path="/5DD0F3DF" Ref="U1"  Part="1" 
 AR Path="/5D4A5981/5DD0F3DF" Ref="U?"  Part="1" 
 F 0 "U1" H 7150 1950 50  0000 L CNN
 F 1 "082" H 7150 1750 50  0000 L CNN
@@ -287,7 +287,7 @@ F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 7100 1850 60  0001 C CNN
 F 3 "" H 7100 1850 60  0000 C CNN
 F 4 "Mouser" H 3350 -2575 50  0001 C CNN "Manufacturer"
 F 5 "Substitution OK" H 3350 -2575 50  0001 C CNN "Comments"
-	2    7100 1850
+	1    7100 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -609,10 +609,10 @@ $EndComp
 Connection ~ 6375 3350
 $Comp
 L 4ms-ic:NJM2068-separate-power U?
-U 1 1 5DFB9E5B
+U 2 1 5DFB9E5B
 P 4875 3425
 AR Path="/5B8C674E/5DFB9E5B" Ref="U?"  Part="2" 
-AR Path="/5DFB9E5B" Ref="U2"  Part="1" 
+AR Path="/5DFB9E5B" Ref="U2"  Part="2" 
 AR Path="/5D4A5981/5DFB9E5B" Ref="U?"  Part="1" 
 F 0 "U2" H 4925 3525 50  0000 L CNN
 F 1 "082" H 4925 3325 50  0000 L CNN
@@ -620,7 +620,7 @@ F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 4875 3425 60  0001 C CNN
 F 3 "" H 4875 3425 60  0000 C CNN
 F 4 "Mouser" H 1125 -1000 50  0001 C CNN "Manufacturer"
 F 5 "Substitution OK" H 1125 -1000 50  0001 C CNN "Comments"
-	1    4875 3425
+	2    4875 3425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -643,10 +643,10 @@ Wire Wire Line
 	5175 3425 5175 3725
 $Comp
 L 4ms-ic:NJM2068-separate-power U?
-U 2 1 5DFB9E7E
+U 1 1 5DFB9E7E
 P 7000 3450
 AR Path="/5B8C674E/5DFB9E7E" Ref="U?"  Part="2" 
-AR Path="/5DFB9E7E" Ref="U2"  Part="2" 
+AR Path="/5DFB9E7E" Ref="U2"  Part="1" 
 AR Path="/5D4A5981/5DFB9E7E" Ref="U?"  Part="1" 
 F 0 "U2" H 7050 3550 50  0000 L CNN
 F 1 "082" H 7050 3350 50  0000 L CNN
@@ -654,7 +654,7 @@ F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 7000 3450 60  0001 C CNN
 F 3 "" H 7000 3450 60  0000 C CNN
 F 4 "Mouser" H 3250 -975 50  0001 C CNN "Manufacturer"
 F 5 "Substitution OK" H 3250 -975 50  0001 C CNN "Comments"
-	2    7000 3450
+	1    7000 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1208,7 +1208,7 @@ P 12475 1225
 AR Path="/5E7668A3/5D66D6BD" Ref="TR?"  Part="1" 
 AR Path="/5D66D6BD" Ref="TR1"  Part="1" 
 F 0 "TR1" H 12405 1271 50  0000 R CNN
-F 1 "100k" H 13525 1350 50  0000 R CNN
+F 1 "100k" H 12425 1200 50  0000 R CNN
 F 2 "4ms_Potentiometer:Pot_Trim_SMT_TC33X" H 12675 975 50  0001 C CNN
 F 3 "" H 12475 1225 50  0001 C CNN
 F 4 "Mouser" H 5775 -525 50  0001 C CNN "Manufacturer"
@@ -1715,10 +1715,10 @@ $EndComp
 NoConn ~ 6575 4875
 $Comp
 L 4ms-ic:NJM2068-separate-power U?
-U 1 1 5DA605CD
+U 2 1 5DA605CD
 P 4925 5850
 AR Path="/5B8C674E/5DA605CD" Ref="U?"  Part="2" 
-AR Path="/5DA605CD" Ref="U3"  Part="1" 
+AR Path="/5DA605CD" Ref="U3"  Part="2" 
 AR Path="/5D4A5981/5DA605CD" Ref="U?"  Part="1" 
 F 0 "U3" H 4975 5950 50  0000 L CNN
 F 1 "082" H 4975 5750 50  0000 L CNN
@@ -1726,7 +1726,7 @@ F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 4925 5850 60  0001 C CNN
 F 3 "" H 4925 5850 60  0000 C CNN
 F 4 "Mouser" H 1175 1425 50  0001 C CNN "Manufacturer"
 F 5 "Substitution OK" H 1175 1425 50  0001 C CNN "Comments"
-	1    4925 5850
+	2    4925 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1749,10 +1749,10 @@ Wire Wire Line
 	5225 5850 5225 6150
 $Comp
 L 4ms-ic:NJM2068-separate-power U?
-U 2 1 5DA605F0
+U 1 1 5DA605F0
 P 7050 5875
 AR Path="/5B8C674E/5DA605F0" Ref="U?"  Part="2" 
-AR Path="/5DA605F0" Ref="U3"  Part="2" 
+AR Path="/5DA605F0" Ref="U3"  Part="1" 
 AR Path="/5D4A5981/5DA605F0" Ref="U?"  Part="1" 
 F 0 "U3" H 7100 5975 50  0000 L CNN
 F 1 "082" H 7100 5775 50  0000 L CNN
@@ -1760,7 +1760,7 @@ F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 7050 5875 60  0001 C CNN
 F 3 "" H 7050 5875 60  0000 C CNN
 F 4 "Mouser" H 3300 1450 50  0001 C CNN "Manufacturer"
 F 5 "Substitution OK" H 3300 1450 50  0001 C CNN "Comments"
-	2    7050 5875
+	1    7050 5875
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1984,10 +1984,10 @@ $EndComp
 Connection ~ 6325 7375
 $Comp
 L 4ms-ic:NJM2068-separate-power U?
-U 1 1 5DA606CE
+U 2 1 5DA606CE
 P 4825 7450
 AR Path="/5B8C674E/5DA606CE" Ref="U?"  Part="2" 
-AR Path="/5DA606CE" Ref="U4"  Part="1" 
+AR Path="/5DA606CE" Ref="U4"  Part="2" 
 AR Path="/5D4A5981/5DA606CE" Ref="U?"  Part="1" 
 F 0 "U4" H 4875 7550 50  0000 L CNN
 F 1 "082" H 4875 7350 50  0000 L CNN
@@ -1995,7 +1995,7 @@ F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 4825 7450 60  0001 C CNN
 F 3 "" H 4825 7450 60  0000 C CNN
 F 4 "Mouser" H 1075 3025 50  0001 C CNN "Manufacturer"
 F 5 "Substitution OK" H 1075 3025 50  0001 C CNN "Comments"
-	1    4825 7450
+	2    4825 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2018,10 +2018,10 @@ Wire Wire Line
 	5125 7450 5125 7750
 $Comp
 L 4ms-ic:NJM2068-separate-power U?
-U 2 1 5DA606F1
+U 1 1 5DA606F1
 P 6950 7475
 AR Path="/5B8C674E/5DA606F1" Ref="U?"  Part="2" 
-AR Path="/5DA606F1" Ref="U4"  Part="2" 
+AR Path="/5DA606F1" Ref="U4"  Part="1" 
 AR Path="/5D4A5981/5DA606F1" Ref="U?"  Part="1" 
 F 0 "U4" H 7000 7575 50  0000 L CNN
 F 1 "082" H 7000 7375 50  0000 L CNN
@@ -2029,7 +2029,7 @@ F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 6950 7475 60  0001 C CNN
 F 3 "" H 6950 7475 60  0000 C CNN
 F 4 "Mouser" H 3200 3050 50  0001 C CNN "Manufacturer"
 F 5 "Substitution OK" H 3200 3050 50  0001 C CNN "Comments"
-	2    6950 7475
+	1    6950 7475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -4463,29 +4463,8 @@ F 5 "Substitution OK" H 11200 7750 50  0001 C CNN "Comments"
 	3    15475 13650
 	0    -1   -1   0   
 $EndComp
-$Comp
-L 4ms-passives:CP1_Small C?
-U 1 1 5E8D2826
-P 19600 14175
-AR Path="/5BB43456/5E8D2826" Ref="C?"  Part="1" 
-AR Path="/5E8D2826" Ref="C31"  Part="1" 
-AR Path="/5E7668A3/5E8D2826" Ref="C?"  Part="1" 
-F 0 "C31" H 19675 14150 50  0000 L CNN
-F 1 "47uF" H 19650 14225 50  0000 L CNN
-F 2 "4ms_Capacitor:CP_Elec_5x5.3" H 19600 14175 50  0001 C CNN
-F 3 "" H 19600 14175 50  0000 C CNN
-F 4 "Mouser" H 16925 6775 50  0001 C CNN "Manufacturer"
-F 5 "Substitution OK" H 16925 6775 50  0001 C CNN "Comments"
-F 6 "TEST" H 16925 6775 50  0001 C CNN "Part Number"
-F 7 "2" H 16925 6775 50  0001 C CNN "Points"
-F 8 "SMD" H 16925 6775 50  0001 C CNN "SMD/TH"
-	1    19600 14175
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	19275 13350 19875 13350
-Wire Wire Line
-	19275 14075 19900 14075
+	19275 13350 19600 13350
 $Comp
 L 4ms-power:+12V #PWR?
 U 1 1 5E916BE6
@@ -5814,4 +5793,31 @@ F 3 "" H 5975 4875 50  0000 C CNN
 	1    5975 4875
 	1    0    0    -1  
 $EndComp
+Connection ~ 19600 13350
+Wire Wire Line
+	19600 13350 19875 13350
+$Comp
+L 4ms-passives:CP1_Small C?
+U 1 1 5E8D2826
+P 19600 14175
+AR Path="/5BB43456/5E8D2826" Ref="C?"  Part="1" 
+AR Path="/5E8D2826" Ref="C31"  Part="1" 
+AR Path="/5E7668A3/5E8D2826" Ref="C?"  Part="1" 
+F 0 "C31" H 19675 14150 50  0000 L CNN
+F 1 "47uF" H 19650 14225 50  0000 L CNN
+F 2 "4ms_Capacitor:CP_Elec_5x5.3" H 19600 14175 50  0001 C CNN
+F 3 "" H 19600 14175 50  0000 C CNN
+F 4 "Mouser" H 16925 6775 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 16925 6775 50  0001 C CNN "Comments"
+F 6 "TEST" H 16925 6775 50  0001 C CNN "Part Number"
+F 7 "2" H 16925 6775 50  0001 C CNN "Points"
+F 8 "SMD" H 16925 6775 50  0001 C CNN "SMD/TH"
+	1    19600 14175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	19275 14075 19600 14075
+Wire Wire Line
+	19600 14075 19900 14075
+Connection ~ 19600 14075
 $EndSCHEMATC
