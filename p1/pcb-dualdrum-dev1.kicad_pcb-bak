@@ -403,7 +403,7 @@
   )
 
   (module 4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm (layer F.Cu) (tedit 5B8462F3) (tstamp 5D67B174)
-    (at 22.88 -127.65)
+    (at 26.28 -65.92)
     (descr "8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (path /5DA60917)
@@ -1217,7 +1217,7 @@
   )
 
   (module 4ms_Resistor:R_0603 (layer F.Cu) (tedit 5B0456E1) (tstamp 5D67212C)
-    (at 32.96 -127.58 90)
+    (at 36.36 -65.85 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5DA60970)
@@ -2237,7 +2237,7 @@
   )
 
   (module 4ms_Resistor:R_0603 (layer F.Cu) (tedit 5B0456E1) (tstamp 5D671FC4)
-    (at 12.6 -127.55 90)
+    (at 16 -65.82 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5E29FAC4)
@@ -2985,7 +2985,7 @@
   )
 
   (module 4ms_Connector:Pins_2x05_2.54mm_TH_Europower (layer F.Cu) (tedit 5B846358) (tstamp 5D672A2D)
-    (at 23.82 -46.64)
+    (at 23.75 -40.24)
     (tags "Through hole pin header THT 2x05 2.54mm Eurorack power europower")
     (path /5E8D2759)
     (fp_text reference P1 (at 0 -1.35 -90) (layer F.SilkS) hide
@@ -3708,7 +3708,7 @@
   )
 
   (module 4ms_Capacitor:C_0603 (layer F.Cu) (tedit 5B846284) (tstamp 5D671AA4)
-    (at 20.54 -124.92)
+    (at 23.94 -63.19)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603 C0603")
     (path /5E8D27BA)
@@ -3737,15 +3737,15 @@
   )
 
   (module 4ms_Capacitor:C_0603 (layer F.Cu) (tedit 5B846284) (tstamp 5D671A98)
-    (at 26.07 -131.22 90)
+    (at 28.63 -68.61 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603 C0603")
     (path /5E8D27D9)
     (attr smd)
-    (fp_text reference C45 (at 0 -1.9 90) (layer F.SilkS)
+    (fp_text reference C45 (at 0 -1.9) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.1524)))
     )
-    (fp_text value 0.1uF (at 0 1.9 90) (layer F.SilkS)
+    (fp_text value 0.1uF (at 0 1.9) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.1524)))
     )
     (fp_line (start -0.15 -0.75) (end -0.15 0.75) (layer F.SilkS) (width 0.15))
@@ -3754,9 +3754,9 @@
     (fp_line (start -1.6 -0.75) (end -1.6 0.75) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.6 0.75) (end 1.6 0.75) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.6 -0.75) (end 1.6 -0.75) (layer F.CrtYd) (width 0.05))
-    (pad 2 smd rect (at 0.85 0 90) (size 1 1) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.85 0 180) (size 1 1) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (pad 1 smd rect (at -0.85 0 90) (size 1 1) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.85 0 180) (size 1 1) (layers F.Cu F.Paste F.Mask)
       (net 36 +12V))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
@@ -4584,7 +4584,7 @@
   )
 
   (module 4ms_Capacitor:C_0603 (layer F.Cu) (tedit 5B846284) (tstamp 5D671934)
-    (at 30.5 -128.46)
+    (at 33.9 -66.73)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603 C0603")
     (path /5DA60981)
@@ -4700,7 +4700,7 @@
   )
 
   (module 4ms_Capacitor:C_0603 (layer F.Cu) (tedit 5B846284) (tstamp 5D671904)
-    (at 28.04 -127.62 90)
+    (at 31.44 -65.89 90)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603 C0603")
     (path /5DA60938)
@@ -4844,7 +4844,7 @@
   )
 
   (module 4ms_Capacitor:C_0603 (layer F.Cu) (tedit 5B846284) (tstamp 5D6718C8)
-    (at 15.01 -128.4 180)
+    (at 18.41 -66.67 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603 C0603")
     (path /5E29FAD5)
@@ -4988,7 +4988,7 @@
   )
 
   (module 4ms_Capacitor:C_0603 (layer F.Cu) (tedit 5B846284) (tstamp 5D67188C)
-    (at 17.46 -127.56 90)
+    (at 20.86 -65.83 90)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603 C0603")
     (path /5E29FA91)

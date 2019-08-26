@@ -1183,7 +1183,7 @@
   )
 
   (module 4ms_Resistor:R_0603 (layer F.Cu) (tedit 5B0456E1) (tstamp 5D672138)
-    (at 35.13 -14.62)
+    (at 54.35 -16.43)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5DA60883)
@@ -2373,7 +2373,7 @@
   )
 
   (module 4ms_Resistor:R_0603 (layer F.Cu) (tedit 5B0456E1) (tstamp 5D671F94)
-    (at 10.7 -14.59 180)
+    (at -5.28 -16.05 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5D66D6B2)
@@ -2985,7 +2985,7 @@
   )
 
   (module 4ms_Connector:Pins_2x05_2.54mm_TH_Europower (layer F.Cu) (tedit 5B846358) (tstamp 5D672A2D)
-    (at 23.82 -46.64)
+    (at 23.75 -40.24)
     (tags "Through hole pin header THT 2x05 2.54mm Eurorack power europower")
     (path /5E8D2759)
     (fp_text reference P1 (at 0 -1.35 -90) (layer F.SilkS) hide
@@ -5575,7 +5575,7 @@
   )
 
   (module 4ms_LED:LED_0603_1608Metric (layer B.Cu) (tedit 5C2FA51B) (tstamp 5D643A13)
-    (at 35.23 -15.61 180)
+    (at 36.5 -13.5 180)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /5DA607F3)
@@ -5623,8 +5623,8 @@
     )
   )
 
-  (module 4ms_LED:LED_0603_1608Metric (layer B.Cu) (tedit 5C2FA51B) (tstamp 5D6439FA)
-    (at 10.82 -15.29 180)
+  (module 4ms_LED:LED_0603_1608Metric (layer B.Cu) (tedit 5C2FA51B) (tstamp 5D65A4D8)
+    (at 11.5 -13.5 180)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /5D66D62C)
