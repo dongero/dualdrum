@@ -767,7 +767,7 @@
   )
 
   (module 4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm (layer F.Cu) (tedit 5B8462F3) (tstamp 5D6721E2)
-    (at 39.73 -106.2)
+    (at 38.333 -105.47356)
     (descr "8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (path /5D96046E)
@@ -1795,7 +1795,7 @@
   )
 
   (module 4ms_Resistor:R_0603 (layer F.Cu) (tedit 5B0456E1) (tstamp 5D672060)
-    (at 18.41 -23.42 90)
+    (at 19.14144 -23.62708 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5D9F1B96)
@@ -2271,7 +2271,7 @@
   )
 
   (module 4ms_Resistor:R_0603 (layer F.Cu) (tedit 5B0456E1) (tstamp 5D671FB8)
-    (at 34 -106.92 180)
+    (at 32.603 -106.19356 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5D5EECB3)
@@ -2407,7 +2407,7 @@
   )
 
   (module 4ms_Resistor:R_0603 (layer F.Cu) (tedit 5B0456E1) (tstamp 5D671F88)
-    (at 45.34 -105.72)
+    (at 43.943 -104.99356)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5D5EECA0)
@@ -2543,7 +2543,7 @@
   )
 
   (module 4ms_Resistor:R_0603 (layer F.Cu) (tedit 5B0456E1) (tstamp 5D671F58)
-    (at 34.14 -99.92)
+    (at 32.743 -99.19356)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5D5EED17)
@@ -2577,7 +2577,7 @@
   )
 
   (module 4ms_Resistor:R_0603 (layer F.Cu) (tedit 5B0456E1) (tstamp 5D671F4C)
-    (at 34.14 -101.45 180)
+    (at 32.743 -100.72356 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5E6FD8BE)
@@ -2645,7 +2645,7 @@
   )
 
   (module 4ms_Resistor:R_0603 (layer F.Cu) (tedit 5B0456E1) (tstamp 5D671F34)
-    (at 45.6 -99.65)
+    (at 44.203 -98.92356)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5D5EEC69)
@@ -2747,7 +2747,7 @@
   )
 
   (module 4ms_Resistor:R_0603 (layer F.Cu) (tedit 5B0456E1) (tstamp 5D671F10)
-    (at 34.13 -103)
+    (at 32.733 -102.27356)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5E6FD8AF)
@@ -2781,7 +2781,7 @@
   )
 
   (module 4ms_Resistor:R_0603 (layer F.Cu) (tedit 5B0456E1) (tstamp 5D671F04)
-    (at 45.6 -101.2)
+    (at 44.203 -100.47356)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5E3C520B)
@@ -2849,7 +2849,7 @@
   )
 
   (module 4ms_Resistor:R_0603 (layer F.Cu) (tedit 5B0456E1) (tstamp 5D671EEC)
-    (at 45.61 -102.78 180)
+    (at 44.213 -102.05356 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5E42AE4E)
@@ -3242,7 +3242,7 @@
   )
 
   (module 4ms_Package_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm (layer F.Cu) (tedit 5A849B5F) (tstamp 5D671DE5)
-    (at 39.74 -99.01)
+    (at 38.343 -98.28356)
     (descr "16-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5D57EBB3)
@@ -3795,7 +3795,7 @@
   )
 
   (module 4ms_Capacitor:C_0603 (layer F.Cu) (tedit 5B846284) (tstamp 5D671A80)
-    (at 22.7838 -3.93192 180)
+    (at 21.77288 -3.94208)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603 C0603")
     (path /5E8D2813)
@@ -3812,9 +3812,9 @@
     (fp_line (start -1.6 -0.75) (end -1.6 0.75) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.6 0.75) (end 1.6 0.75) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.6 -0.75) (end 1.6 -0.75) (layer F.CrtYd) (width 0.05))
-    (pad 2 smd rect (at 0.85 0 180) (size 1 1) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.85 0) (size 1 1) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (pad 1 smd rect (at -0.85 0 180) (size 1 1) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.85 0) (size 1 1) (layers F.Cu F.Paste F.Mask)
       (net 36 +12V))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step
       (at (xyz 0 0 0))
@@ -3969,7 +3969,7 @@
   )
 
   (module 4ms_Capacitor:C_0603 (layer F.Cu) (tedit 5B846284) (tstamp 5D671A38)
-    (at 34 -105.23 180)
+    (at 32.603 -104.50356 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603 C0603")
     (path /5EAA82E5)
@@ -3998,7 +3998,7 @@
   )
 
   (module 4ms_Capacitor:C_0603 (layer F.Cu) (tedit 5B846284) (tstamp 5D671A2C)
-    (at 45.34 -107.3)
+    (at 43.943 -106.57356)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603 C0603")
     (path /5EAA8240)
@@ -4056,7 +4056,7 @@
   )
 
   (module 4ms_Capacitor:C_0603 (layer F.Cu) (tedit 5B846284) (tstamp 5D67B63E)
-    (at 20.94 -22.26 180)
+    (at 21.55952 -22.36216 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603 C0603")
     (path /5E8D2685)
@@ -4353,7 +4353,7 @@
   )
 
   (module 4ms_Capacitor:C_0603 (layer F.Cu) (tedit 5B846284) (tstamp 5D671994)
-    (at 34.13 -96.74 180)
+    (at 32.733 -96.01356 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603 C0603")
     (path /5E91ACE0)
@@ -4469,7 +4469,7 @@
   )
 
   (module 4ms_Capacitor:C_0603 (layer F.Cu) (tedit 5B846284) (tstamp 5D671964)
-    (at 45.6 -96.49)
+    (at 44.203 -95.76356)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603 C0603")
     (path /5E917A7F)
@@ -4930,7 +4930,7 @@
   )
 
   (module 4ms_Capacitor:C_0603 (layer F.Cu) (tedit 5B846284) (tstamp 5D6718A4)
-    (at 34.14 -98.31 180)
+    (at 32.743 -97.58356 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603 C0603")
     (path /5D5EED66)
@@ -4959,7 +4959,7 @@
   )
 
   (module 4ms_Capacitor:C_0603 (layer F.Cu) (tedit 5B846284) (tstamp 5D671898)
-    (at 45.61 -98.08)
+    (at 44.213 -97.35356)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603 C0603")
     (path /5D5EEC30)
@@ -5106,7 +5106,7 @@
   )
 
   (module 4ms_Connector:Pins_1x03_2.54mm_TH (layer F.Cu) (tedit 5D44B934) (tstamp 5D671859)
-    (at 39.53 -92.15 90)
+    (at 38.133 -91.42356 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5D8C2920)
@@ -5138,7 +5138,7 @@
   )
 
   (module 4ms_Switch:Switch_Toggle_SPDT_SubMini (layer B.Cu) (tedit 5B980EA4) (tstamp 5D65006E)
-    (at 5.97 -54.81)
+    (at 5 -54)
     (path /5DEE92E9)
     (fp_text reference MIC/LINE2 (at -1.88 4.4) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify right bottom mirror))
@@ -5174,7 +5174,7 @@
   )
 
   (module 4ms_Switch:Switch_Toggle_SPDT_SubMini (layer B.Cu) (tedit 5B980EA4) (tstamp 5D675A23)
-    (at 43.86 -54.16)
+    (at 43 -54)
     (path /5E29FB25)
     (fp_text reference MIC/LINE1 (at -1.88 4.4) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify right bottom mirror))
@@ -5210,7 +5210,7 @@
   )
 
   (module 4ms_Potentiometer:Pot_9mm_Knurl_NoDet (layer B.Cu) (tedit 5C38F8AA) (tstamp 5D643AFD)
-    (at 8.25 -38.75)
+    (at 7 -40)
     (path /5DA60822)
     (fp_text reference Gate_PW2 (at -4.6 4.1) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify right bottom mirror))
@@ -5337,7 +5337,7 @@
   )
 
   (module 4ms_Potentiometer:Pot_9mm_Knurl_NoDet (layer B.Cu) (tedit 5C38F8AA) (tstamp 5D643AA7)
-    (at 39.75 -38.75)
+    (at 41 -40)
     (path /5D66D65A)
     (fp_text reference Gate_PW1 (at -4.6 4.1) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify right bottom mirror))
