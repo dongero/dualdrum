@@ -929,10 +929,10 @@ Wire Wire Line
 	12700 1375 12700 1475
 $Comp
 L 4ms-ic:NJM2068-separate-power U?
-U 1 1 5D66D60C
+U 2 1 5D66D60C
 P 14125 2050
 AR Path="/5B8C674E/5D66D60C" Ref="U?"  Part="1" 
-AR Path="/5D66D60C" Ref="U9"  Part="1" 
+AR Path="/5D66D60C" Ref="U9"  Part="2" 
 AR Path="/5E7668A3/5D66D60C" Ref="U?"  Part="2" 
 F 0 "U9" H 14175 2150 50  0000 L CNN
 F 1 "082" H 14120 2220 50  0000 L CNN
@@ -940,7 +940,7 @@ F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 14125 2050 60  0001 C CNN
 F 3 "" H 14125 2050 60  0000 C CNN
 F 4 "Mouser" H 5775 -525 50  0001 C CNN "Manufacturer"
 F 5 "Substitution OK" H 5775 -525 50  0001 C CNN "Comments"
-	1    14125 2050
+	2    14125 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2299,10 +2299,10 @@ Wire Wire Line
 	12600 5750 12600 5850
 $Comp
 L 4ms-ic:NJM2068-separate-power U?
-U 2 1 5DA607C7
+U 1 1 5DA607C7
 P 14025 6425
 AR Path="/5B8C674E/5DA607C7" Ref="U?"  Part="1" 
-AR Path="/5DA607C7" Ref="U9"  Part="2" 
+AR Path="/5DA607C7" Ref="U9"  Part="1" 
 AR Path="/5E7668A3/5DA607C7" Ref="U?"  Part="2" 
 F 0 "U9" H 14075 6525 50  0000 L CNN
 F 1 "082" H 14020 6595 50  0000 L CNN
@@ -2310,7 +2310,7 @@ F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 14025 6425 60  0001 C CNN
 F 3 "" H 14025 6425 60  0000 C CNN
 F 4 "Mouser" H 5675 3850 50  0001 C CNN "Manufacturer"
 F 5 "Substitution OK" H 5675 3850 50  0001 C CNN "Comments"
-	2    14025 6425
+	1    14025 6425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3019,7 +3019,7 @@ $EndComp
 Wire Wire Line
 	7550 6550 7650 6550
 Wire Wire Line
-	8575 6450 8975 6450
+	8575 6450 8800 6450
 Wire Wire Line
 	8800 6250 8800 6000
 Wire Wire Line
@@ -3350,7 +3350,7 @@ $EndComp
 Wire Wire Line
 	7600 2525 7700 2525
 Wire Wire Line
-	8625 2425 9025 2425
+	8625 2425 8850 2425
 Wire Wire Line
 	8850 2225 8850 1975
 Wire Wire Line
@@ -5820,4 +5820,16 @@ Wire Wire Line
 Wire Wire Line
 	19600 14075 19900 14075
 Connection ~ 19600 14075
+Wire Wire Line
+	8850 2225 8850 2425
+Connection ~ 8850 2225
+Connection ~ 8850 2425
+Wire Wire Line
+	8850 2425 9025 2425
+Wire Wire Line
+	8800 6250 8800 6450
+Connection ~ 8800 6250
+Connection ~ 8800 6450
+Wire Wire Line
+	8800 6450 8975 6450
 $EndSCHEMATC
