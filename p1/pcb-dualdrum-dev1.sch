@@ -223,22 +223,6 @@ F 3 "" H 6475 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6475 1750
-$Comp
-L 4ms-mech:POT Level_?
-U 1 1 5D5EED41
-P 6475 850
-AR Path="/5B8C674E/5D5EED41" Ref="Level_?"  Part="1" 
-AR Path="/5D5EED41" Ref="Freq1"  Part="1" 
-AR Path="/5D4A5981/5D5EED41" Ref="Level_?"  Part="1" 
-F 0 "Freq1" V 6325 850 50  0000 C CNN
-F 1 "1M" V 6475 850 50  0000 C CNN
-F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 6475 850 60  0001 C CNN
-F 3 "" H 6475 850 60  0000 C CNN
-F 4 "Mouser" H 1325 -1250 50  0001 C CNN "Manufacturer"
-F 5 "Substitution OK" H 1325 -1250 50  0001 C CNN "Comments"
-	1    6475 850 
-	0    -1   1    0   
-$EndComp
 NoConn ~ 6625 850 
 $Comp
 L 4ms-ic:NJM2068-separate-power U?
@@ -5944,4 +5928,20 @@ Wire Wire Line
 Wire Wire Line
 	11125 6550 11125 7200
 Connection ~ 11125 6550
+$Comp
+L 4ms-mech:POT Level_?
+U 1 1 5D5EED41
+P 6475 850
+AR Path="/5B8C674E/5D5EED41" Ref="Level_?"  Part="1" 
+AR Path="/5D5EED41" Ref="Freq1"  Part="1" 
+AR Path="/5D4A5981/5D5EED41" Ref="Level_?"  Part="1" 
+F 0 "Freq1" V 6325 850 50  0000 C CNN
+F 1 "1M" V 6475 850 50  0000 C CNN
+F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" V 6475 850 60  0001 C CNN
+F 3 "" H 6475 850 60  0000 C CNN
+F 4 "Mouser" H 1325 -1250 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 1325 -1250 50  0001 C CNN "Comments"
+	1    6475 850 
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC
