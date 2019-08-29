@@ -1,0 +1,20 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.4-0-10_14)*
+G04 #@! TF.CreationDate,2019-08-29T11:55:18-07:00*
+G04 #@! TF.ProjectId,pcb-dualdrum-dev1,7063622d-6475-4616-9c64-72756d2d6465,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Paste,Bot*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (5.1.4-0-10_14)) date 2019-08-29 11:55:18*
+%MOMM*%
+%LPD*%
+G04 APERTURE LIST*
+%ADD10R,0.820000X1.000000*%
+G04 APERTURE END LIST*
+D10*
+X10555080Y13500000D03*
+X12155080Y13500000D03*
+X35855080Y13500000D03*
+X37455080Y13500000D03*
+M02*
