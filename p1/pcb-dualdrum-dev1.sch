@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:pcb-dualdrum-dev1-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -1687,7 +1687,7 @@ F 3 "" H 6425 4875 60  0000 C CNN
 F 4 "Mouser" H 1275 2775 50  0001 C CNN "Manufacturer"
 F 5 "Substitution OK" H 1275 2775 50  0001 C CNN "Comments"
 	1    6425 4875
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 NoConn ~ 6575 4875
 $Comp
@@ -5942,6 +5942,6 @@ F 3 "" H 6475 850 60  0000 C CNN
 F 4 "Mouser" H 1325 -1250 50  0001 C CNN "Manufacturer"
 F 5 "Substitution OK" H 1325 -1250 50  0001 C CNN "Comments"
 	1    6475 850 
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
