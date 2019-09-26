@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:pcb-dualdrum-dev1-cache
-EELAYER 29 0
+LIBS:dualdrum-cache
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -1687,7 +1687,7 @@ F 3 "" H 6425 4875 60  0000 C CNN
 F 4 "Mouser" H 1275 2775 50  0001 C CNN "Manufacturer"
 F 5 "Substitution OK" H 1275 2775 50  0001 C CNN "Comments"
 	1    6425 4875
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 NoConn ~ 6575 4875
 $Comp
@@ -5942,6 +5942,16 @@ F 3 "" H 6475 850 60  0000 C CNN
 F 4 "Mouser" H 1325 -1250 50  0001 C CNN "Manufacturer"
 F 5 "Substitution OK" H 1325 -1250 50  0001 C CNN "Comments"
 	1    6475 850 
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
+Text Notes 6700 875  0    50   ~ 0
+100k res to -12v here
+Text Notes 7150 -175 0    50   ~ 0
+cut traces between 13700s\n-freq pot to lm2\n-out put summed together at u6\n\nnow, reconected with jumpers\n-changed r4 and r34 to 100k - seems to help signal on first\nota but the second one still oscillating - so they are back to being\n10ks now -\n\nremoved resistors connecting one shot circuit - need to put them back\ncurrently no filtering cap on R30 - though originally i thought that was \nwhat fixed the oscillation\n\nnew problem - when setting freq cutoff to highest point, the second\n13700 fails when recieving lower frequencies\n**one theory is harsh edges? may want to try rc filter into 13700\n**another theory may be power draw at lower frequencies? the 2nd 13700\ngoes high when this issue occurs.
+Text Notes 4100 4075 0    50   ~ 0
+adding 100nF  cap in par w/r30 gets rid of oscillation\n*this may not be true\n
+Text Notes 3400 3450 1    50   ~ 0
+-changing R23 to 20k prevents \ncircuit from cutting out
+Text Notes 3600 -500 0    50   ~ 0
+fixes \n-cut out issue was due to R23 being to low of value - changed\nfrom 10k to 20k
 $EndSCHEMATC
